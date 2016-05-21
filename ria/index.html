@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0706008 - Designing RIch Internet Applications</title>
+        <link rel="stylesheet" href="/~0706008/ria/css/main.css">
+		 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<meta charset="UTF-8">
+    </head>
+    <body>
+		<div id="dialog-confirm" title="WARNING: Please confirm">
+			<p></p>
+		</div>
+	
+		<div id="full-container">
+			<div id="cookie">
+				<div id="runEffect">
+					<a href ="#" class="close-message">Accept and Close</a>	
+					<h1>Welcome</h1>
+					<p>
+						This website may use cookies as part of Abertay's cookie collection policy. 
+						By continuing to use this website, you agree to the <a class="cookie external-link" target="_blank" href="http://abertay.ac.uk/privacy/">Abertay University Cookie Policy</a>
+					</p>
+				</div>
+			</div>
+			<section>
+				<header>
+					<div id="heading">
+						<img src="img/a.png" alt="Blank Image Placeholder"/>
+					</div>
+					
+					<div id="slideshow" class="slide_show"></div>
+				
+					<div class="nav-banner">
+						<nav class="top-nav">	
+							<ul class="main-nav">
+								<li><a class="nav"  href="/~0706008/ria/index.html">Home</a></li>
+								<li><a class="nav dropdown" href="/~0706008/ria/event.html">Events</a>
+									<ul class="nav-events">
+										<li><a href="/~0706008/ria/event/london.html">London</a></li>
+										<li><a href="/~0706008/ria/event/edinburgh.html">Edinburgh</a></li>
+										<li><a href="/~0706008/ria/event/dundee.html">Dundee</a></li>
+									</ul>
+								</li>
+								<li><a class="nav"  href="/~0706008/ria/shop.html">Shop</a></li>
+								<li><a class="nav"  href="/~0706008/ria/tutor.html">Tutor</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="white-bg">
+					<div id = "countdown">
+						<section>
+						<!-- banner that contains next race event details -->
+							<p id="timer">
+								The next <span class="location">{{LOCATION}}</span> marathon will start in <span  class="c_down">{{TIMER}}</span>
+							</p>
+						</section>
+					</div>
+				</div>
+				<main class="main">
+					<div id="content">
+						<section>
+							<div class="left column">
+								<div id="what-is-a-marathon">
+									<h2>What is a Marathon?</h2>
+									<p> <!-- Source: http://wikipedia.org/wiki/marathon -->
+										A marathon is a long-distance running event with an official distance of 42.195 
+										kilometres (26.21875 miles),usually run as a road race. The event was 
+										instituted in commemoration of the fabled run of the Greek soldier Pheidippides, 
+										a messenger from the Battle of Marathon to Athens.
+									</p>
+								</div>	
+								<div id="history">
+									<h2>History of the Marathon</h2>
+									<p><!-- Source: http://wikipedia.org/wiki/marathon -->
+										The marathon was one of the original modern Olympic events in 1896, though the 
+										distance did not become standardized until 1921. More than 500 marathons are held
+										throughout the world each year, with the vast majority of competitors being 
+										recreational athletes as larger marathons can have tens of thousands of participants.
+									</p>
+								</div>	
+								<!-- Information taken from the http://BUPA.co.uk/running/ website and adapted -->
+								<div id="preparation">
+									<h2>Race Preparation</h2>  
+									<p>
+										Make sure you're fit for race day, and ensure you have completed your training to 
+										allow yourself to be properly prepared.
+									</p>
+									<!-- <img src="img/mountain_running.jpg" alt="Girl running up a mountain" /> -->
+								</div>
+								<div class="sponsored-events">
+									<p class="sponsored">sponsored</p>
+									<p>
+										Upcoming events:  
+										<img src="img/runner-icon.png" alt="Running Icon"/><a class="up-coming" href="event/london.html">London</a>,
+										<img src="img/runner-icon.png" alt="Running Icon" /><a class="up-coming" href="event/edinburgh.html">Edinburgh</a>,
+										<img src="img/runner-icon.png" alt="Running Icon" /><a class="up-coming" href="event/dundee.html">Dundee</a>,
+										
+										are all coming soon!
+									</p>
+								</div>
+								<div id="fitness">
+									<div class="prep-col">
+										<h3>Am I fit to race?</h3>
+											<p>make sure you're fit enough to race by knowing when not to... <br>
+												<a target="_blank"  class="external-link" href="http://www.bupa.co.uk/running/injury-prevention-and-recovery/avoiding-injury/">&gt;&gt;Find out here</a>
+											</p>
+									</div>
+									<div class="prep-col">
+										<h3>Counting down to race day</h3>
+											<p>The week before, the day before and race day tips and reminders... <br>
+												<a target="_blank" class="external-link" href="http://www.bupa.co.uk/running/events-and-preparation/race-preparation/countdown-to-race-day/">&gt;&gt; Find out here</a>
+											</p>
+									</div>
+								</div>
+								<div id="marathon-training">
+									<div id="intro">
+										<h2>Training Aims on a weekly basis...</h2>
+										<p> <!-- Source: http://www.bupa.co.uk/running/training/training-programmes/beginner-10km/-->
+											This programme is designed for a beginner runner who would like to train for a 10km run.
+											It will focus on completing the distance comfortably, without a particular emphasis on speed.
+										</p>
+										<p>
+											The programme sets out a schedule of running three times a week on the following days: 
+											Tuesday, Thursday and Sunday. You can train on different days depending on when you have 
+											time, but you should keep the recommended rest days between training.
+										</p>
+										<p>
+											To make the most of this programme, you should be able to run/walk 5km in less than 40 minutes,
+											and you may have already completed the beginner 5km programme.
+										</p>
+									</div>
+									<div class="week-1">
+									
+										<img src="img/running-10k-guide.jpg" alt="Image: running Guide Intro">
+										
+										<h3>Training Aims:</h3>
+										<p><!-- Sourced: http://www.bupa.co.uk/running/training/training-programmes/beginner-10km/#.modTbl -->
+											The first two weeks of this programme are designed to get you into the swing of running. The key to
+											improving your fitness is continuous movement. These two weeks aim to get you to a level where you 
+											can run efficiently and continuously, as it's important that you reach this level before you increase 
+											your distance.
+										</p>
+										<p>
+											Running flat-out won't allow you to develop your fitness in the aerobic way this programme is designed
+											for. You should be aiming to run at a perceived effort level of around six to seven
+										</p>
+										<p>
+											Running your first measured mile will probably be easier than you think. Start with five minutes of brisk
+											walking to warm up before you get to your start point. Then, when you are ready, start your watch and set
+											off round the course. Note your time at the end of the course. Don't forget to do at least five minutes of 
+											walking to warm down before having a good stretch.
+										</p>
+										<p>
+											As your fitness improves, you will get faster over the one to two mile distances and this is an excellent
+											way to chart your progress. Don't worry if your mile times over longer distances don't show the same improvement. 
+											This is because your body will tire over longer distances, so your overall running pace slows to allow you to keep going.
+										</p>
+										<p>
+											During these first few weeks your fitness level may be increasing rapidly and you might still be losing
+											excess body fat. Because of this, you may find that you are getting faster - but don't push yourself too
+											hard. If you are hitting 10 to 11 minutes per mile over the 5km (three miles) distance, that is a good 
+											achievement. You should aim to keep to this pace in training while you build up your mileage by running
+											longer distances. This will bring you over the finishing line in just over one hour - a very respectable 
+											time for your first 10km event.
+										</p>
+
+										<a target="_blank" href="http://www.bupa.co.uk/running/training/training-programmes/beginner-10km/" class="text-center external-link">Read the rest here...</a>
+									</div>
+								</div>
+							</div>
+							<aside class="right column">
+								<!--
+									Plugin Formatting: This will work for as many as you want to include:
+										::requires the following format to display properly:
+					
+									<div id="______AN_ID_REFERENCE" class="fact-list">
+										<h2>Some info to describe the text generator</h2>
+											<div class="fact">
+												<p>	
+													Some placeholder text while the plugin awaits information
+													. . .
+												</p>
+											<div>
+												CANVAS TO DRAW TOO (USES CHARTJS :: http://www.chartjs.org/
+												<canvas class="chart"></canvas>
+											</div>
+										</div>
+									</div>
+								-->
+								
+								<!-- Shows versitility of plugin:: will remove before adding content -->
+								<div id="one"><p>Loading . . .</p></div>
+								
+								<!-- 
+									Can be added to as many DIVs as you want, just add it into the selector in JavaScript
+									file $("div, div2, div3, etc...").factGen(options, data);
+								-->
+								
+								<!--
+								<div id="two">
+									<p>
+										Can stick any text in here as a placeholder, while the plugin is loading...
+									</p>
+								</div>
+								<div id="three"></div>
+								<div id="four"></div> 
+								-->
+							</aside>
+						</section>
+					</div>
+				</main> 
+			</section>
+			
+			<footer class="footer-foot">					
+				<section class="footer-text">
+					<img src="img/text-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Text Sources</h2>
+					<p>
+						The text for this site has been taken from a range of websites, 
+						and can be found <a href="tutor.html">here</a>.
+					</p>
+				</section>
+				<section class="footer-images">
+					<img src="img/image-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Image Sources</h2>
+					<p>
+						Images are copyright of their respective owners. 
+						Taken from advanced search of GOOGLE.
+					</p>
+				</section>
+				
+				<section class="footer copy">
+					<img src="img/copyright-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Copyright</h2>
+					<p>
+						Created for educational use. 
+						This website has no copyright, and is free to use for any purpose.
+					</p>	
+				</section>
+				<div class="footer-foot-foot">
+					<nav>	
+						<ul class="footer-nav">
+							<li class="li-first" ><a href="/~0706008/ria/index.html">Home</a></li>
+							<li><a href="/~0706008/ria/event.html">Events</a></li>
+							<li><a href="/~0706008/ria/shop.html">Shop</a></li>	
+							<li class="li-last"><a  href="/~0706008/ria/tutor.html">Tutor</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		
+		
+		<!-- SCRIPT TAGS -->
+		
+		<!-- CDN Hosts for libraries (Saves space as my quota is exceeded its limit) -->
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		
+		
+		<!-- JS files that have been made myself -->
+		<script src="js/timer.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/plugin/plugin.ria.data.js"></script>
+		<script src="js/plugin/plugin.ria.latest.js"></script>
+    </body>
+</html>

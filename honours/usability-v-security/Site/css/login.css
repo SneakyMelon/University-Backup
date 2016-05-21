@@ -1,0 +1,217 @@
+@font-face {
+    font-family: sBankLogoFont;
+    src: url('../fonts/logo/Jura-Light.ttf');
+}
+
+@font-face{
+	font-family: Lora;
+	src: url('../fonts/Lora/Lora-Regular.ttf');
+}
+
+.light-blue{
+	background-color: #06c !important;
+}
+
+#logo-image{
+	width: 100%;
+	text-align: center;
+}
+#logo-image a{
+	display: inline-block;
+	margin: 2% 0;
+}
+
+#logo-image img{
+	width: 60px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+hr{
+	border: 1px solid white;
+}
+
+h1, h2{
+	color: white;
+	text-align: center;
+	font-family: Lora;
+}
+
+h2{
+	font-size: 1.4em;
+}
+
+h1 a{
+	color: white;
+}
+
+a:hover{
+	color: skyblue;
+	text-decoration: none;
+}
+
+p{
+	word-wrap: break-word;
+	text-align: center;
+	color: white;
+}
+
+.icon{
+	font-size: 2em;
+}
+
+#content{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#content form{
+	max-width: 50%;
+	margin: 30px auto 0;
+	color: white;
+}
+
+.sBank-btn{
+	min-width: 110px !important;
+}
+
+.image.fingerprint{
+	width: auto;
+	height: 100px;
+	text-align: center;
+}
+
+.image.fingerprint img{
+	max-height: 100%;
+	border: 1px solid white;		
+}
+
+#selfie-login{
+	max-width:80% !important;
+	margin: 0 auto;
+}
+
+.selfie-btn{
+	font-family: monospace;
+	margin: 2% auto !important;
+	padding: 1%;
+	width: 60%;
+	text-align: center;
+}
+
+.login-help{
+	color: white;
+	
+	text-decoration: underline;
+	font-size: small;
+}
+.c-checkbox{
+	color: white;
+}
+
+body > footer{
+	margin: 50px auto 0;
+	max-width: 50%;
+	border-top: 2px solid white;
+	text-align: center;
+}
+
+footer ul, footer li{
+	margin: 0 auto;
+	padding: 0;
+}
+
+footer ul{
+	list-style-type: none;
+	padding: 20px 0 10px;;
+}
+
+footer ul li{
+	display: inline-block;
+	padding-left: 0.5em;
+}
+
+footer > p{
+	font-size: 0.8em;
+}
+
+footer a{
+	color: white;
+}
+
+
+/*
+	BootStrap .btn OVERWRITE
+*/
+.btn{
+	background-color: white;
+	color: #0275d8;
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 780px) {    
+	body{
+		overflow-x: hidden;
+	}
+	
+	h1{
+		display: none;
+	}
+	
+	form a.login-help{
+		text-align:center;
+		display: block;
+		margin: 5% 0;
+	}
+	
+	#logo-image a{
+		margin: 5%;
+	}
+	
+	#logo-image, #content, footer{
+		max-width: 100%;
+	}
+	
+	#content  > form, footer > ul{
+		max-width: 100%;
+		margin: 5% 15%;
+	}
+	
+	body > footer{
+		margin: 0 20%;
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 480px) {    
+	body{
+		overflow-x: hidden;
+	}
+	p{
+		font-size: small;
+		text-align: center;
+    }
+	
+	h1{
+		display: none;
+	}
+	
+	#logo-image, #content, footer, #content  > form, footer > ul{
+		max-width: 100%;
+	}
+	
+	footer > ul{
+		margin: 5%;
+	}
+	
+	body > footer{
+		margin: 5%;
+		max-width: 100%;
+	}
+	
+	#content  > form, footer > ul > li{
+		font-size: small;
+	}
+}

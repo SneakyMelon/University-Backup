@@ -1,0 +1,33 @@
+<database>
+	<topic>
+		<title><![CDATA[ <h2>About RIA's</h2> ]]></title>
+		<text>
+			A rich Internet application (RIA) is a Web application that has many of the characteristics of desktop application software, typically delivered by way of a site-specific browser, a browser plug-in, an independent sandbox, extensive use of JavaScript, or a virtual machine. Adobe Flash, JavaFX, and Microsoft Silverlight are currently the three most common platforms, with desktop browser penetration rates around 96%, 76%, and 66%, respectively (as of August 2011)
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>Design, Diastrubution + Cost</h2> ]]></title>
+		<text>
+				Rich Internet applications use a Rich Client deployment model (deployment of a compiled client application through a browser) rather than a thin-client-server model (where the user's view is largely controlled from the server).
+
+				Flash, Silverlight and Java are application platforms accessed by the user's web browser as plug-ins. These application platforms limit the amount of data downloaded during initialization to only what is necessary to display the page. The browser plug-in is only downloaded once, and does not need to be re-downloaded every time the page is displayed; this reduces application load time, bandwidth requirements, and server load.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[<h2>Characteristics</h2>]]></title>
+		<text>
+			RIAs present indexing challenges to Web search engines, but Adobe Flash content is now at least partially indexable.
+
+			Security can improve over that of application software (for example through use of sandboxes and automatic updates), but the extensions themselves remain subject to vulnerabilities and access is often much greater than that of native Web applications. For security purposes, most RIAs run their client portions within a special isolated area of the client desktop called a sandbox. The sandbox limits visibility and access to the file-system and to the operating system on the client to the application server on the other side of the connection. This approach allows the client system to handle local activities, calculations, reformatting and so forth, thereby lowering the amount and frequency of client-server traffic, especially versus client-server implementations built around so-called thin clients.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>New Trends</h2> ]]></title>
+		<text>
+			In November 2011, there were a number of announcements that demonstrated a decline in demand for rich internet application architectures based on plug-ins in order to favor HTML5 alternatives. Adobe announced that Flash would no longer be produced for mobile[18] or TV (refocusing its efforts on Adobe AIR). Pundits questioned its continued relevance even on the desktop and described it as "the beginning of the end". Research In Motion (RIM) announced that it would continue to develop Flash for the PlayBook, a decision questioned by some commentators. Rumors state that Microsoft is to abandon Silverlight after version 5 is released. The combination of these announcements had some proclaiming it "the end of the line for browser plug-ins".
+		</text>
+	</topic>
+	<source>
+		<![CDATA[ <a href="http://en.wikipedia.org/wiki/Rich_internet_application">Sourced from here</a>]]>
+	</source>
+</database>

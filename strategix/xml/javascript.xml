@@ -1,0 +1,37 @@
+<database>
+	<topic>
+		<title><![CDATA[ <h2>About JavaScript</h2> ]]></title>
+		<text>
+			JavaScript is a dynamic computer programming language. It is most commonly used as part of web browsers, whose implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed. It is also used in server-side network programming with frameworks such as Node.js, game development and the creation of desktop and mobile applications.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>Security</h2> ]]></title>
+		<text>
+			JavaScript and the DOM provide the potential for malicious authors to deliver scripts to run on a client computer via the web. Browser authors contain this risk using two restrictions. First, scripts run in a sandbox in which they can only perform web-related actions, not general-purpose programming tasks like creating files. Second, scripts are constrained by the same origin policy: scripts from one web site do not have access to information such as usernames, passwords, or cookies sent to another site. Most JavaScript-related security bugs are breaches of either the same origin policy or the sandbox.
+
+			There are subsets of general JavaScript — ADsafe, Secure ECMA Script (SES) — that provide greater level of security, especially on code created by third parties (such as advertisements).
+
+			Content Security Policy is the main intended method of ensuring that only trusted code is executed on a web page.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[<h2>Development Tools</h2>]]></title>
+		<text>
+			Within JavaScript, access to a debugger becomes invaluable when developing large, non-trivial programs. Because there can be implementation differences between the various browsers (particularly within the Document Object Model), it is useful to have access to a debugger for each of the browsers that a web application targets.[97]
+
+			Script debuggers are available for Internet Explorer, Firefox, Safari, Google Chrome, Opera and Node.js
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>JavaScript and Java</h2> ]]></title>
+		<text>
+			A common misconception is that JavaScript is similar or closely related to Java. It is true that both have a C-like syntax (the C language being their most immediate common ancestor language). They also are both typically sandboxed (when used inside a browser), and JavaScript was designed with Java's syntax and standard library in mind. In particular, all Java keywords were reserved in original JavaScript, JavaScript's standard library follows Java's naming conventions, and JavaScript's Math and Date objects are based on classes from Java 1.0,[115] but the similarities end there.
+
+			The differences between the two languages are more prominent than their similarities. Java has static typing, while JavaScript's typing is dynamic. Java is loaded from compiled bytecode, while JavaScript is loaded as human-readable source code. Java's objects are class-based, while JavaScript's are prototype-based. Finally, Java did not support functional programming until Java 8, while JavaScript does, as it contains many features based on Scheme.
+		</text>
+	</topic>
+	<source>
+		<![CDATA[ <a href="http://en.wikipedia.org/wiki/Database">Sourced from here</a>]]>
+	</source>
+</database>

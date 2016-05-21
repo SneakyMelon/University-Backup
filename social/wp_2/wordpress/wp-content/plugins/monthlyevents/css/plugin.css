@@ -1,0 +1,90 @@
+div.calendar
+{
+	border-left:1px solid #eceff5 !important; 
+	width: 80%;
+	margin: 0 auto; 
+	overflow: overlay;
+}
+
+div.calendar-day	
+{ 
+	min-height:30px; 
+	font-size:11px;
+	position:relative;
+} 
+* html div.calendar-day 
+{ 
+	height:30px; 
+}
+
+div.calendar-day:hover	
+{
+	background:#eceff5; 
+}
+div.calendar-day-np	
+{ 
+	background:#474747; 
+	min-height:30px; 
+} 
+
+* html div.calendar-day-np
+{
+	height:30px; 
+}
+
+div.calendar-day-head {
+	background:#891F1F; 
+	font-weight:bold; 
+	text-align:center;
+	width:30px; 
+	padding:5px; 
+	border-bottom:1px solid #999; 
+	border-top:1px solid #999; 
+	border-right:1px solid #999; 
+}
+
+div.day-number		
+{ 
+	background:#999;
+	padding:5px; color:#fff;
+	font-weight:bold;
+	float:right; 
+	margin:-5px -5px 0 0;
+	width:20px; 
+	text-align:center;
+}
+
+
+div.calendar-day, div.calendar-day-np { 
+	width:30px; 
+	padding:5px; 
+	border-bottom:1px solid #999; 
+	border-right:1px solid #999; }
+
+div.calendar *
+{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+div.calendar-row
+{
+	clear: both;
+}
+
+.event
+{
+	background: #F73C41;
+}
+
+.event:hover{
+	background: #891F1F !important;
+}
+
+#calendar-3 > h4
+{
+	text-align: center;
+	width:100%;
+	font-size: 1em;
+}

@@ -1,0 +1,19 @@
+/*
+ Theme Name:     Video-child
+ Theme URI:      http://www.examole.com
+ Description:    Video-child Theme
+ Author:         Allan
+ Author URI:     http://www.example.com
+ Template:       Video
+ Version:        1.0.0
+*/
+ 
+@import url('../Video/style.css');
+ 
+.advertisement{
+height:400px;
+
+}
+.widget{
+text-align:center;
+}

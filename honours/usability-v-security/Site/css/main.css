@@ -1,0 +1,877 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Custom Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: sBankLogoFont;
+    src: url('../fonts/logo/Jura-Light.ttf');
+}
+
+@font-face{
+	font-family: Lora;
+	src: url('../fonts/Lora/Lora-Regular.ttf');
+}
+/* ==========================================================================
+   Colours
+   ========================================================================== */
+
+
+.light-blue{
+  background-color: #0093de !important;
+}
+
+.light-blue-color{
+  color: #0093de !important;
+}
+
+.dark-blue{
+  background-color: #0066CC !important;
+}
+
+.dark-blue-color{
+  color: #08416c !important;
+}
+
+
+li > i{
+  color: #08416c;
+}
+
+.align-left{
+	text-align: left;
+	width: 90%;
+}
+
+.align-center{
+	text-align: center;
+	width: 90%;
+}
+
+.align-right{
+	text-align: right;
+	width: 90%;
+}
+
+.login{
+	max-width:40% !important;
+	margin: 0 auto;
+}
+
+/* ==========================================================================
+   Defined default GLOBAL styles
+   ========================================================================== */
+
+
+section{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+	font-family: Lora;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+}
+ 
+a:hover{
+	text-decoration: underline;
+}
+ 
+.row{
+	width: 100%
+}
+
+.right{
+	float: right !important;
+}
+
+.left{
+	float: left !important;
+}
+
+
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+  width: 6px;
+  height: 6px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+   
+section#main > header{
+	overflow: hidden;
+	padding: 10px 0;
+	z-index: 100;
+}
+
+#sBank-nav > nav{
+	z-index: 101;
+}
+
+label[for="menu-toggle"], #menu-toggle{
+	display: none;
+}
+
+.bg{
+	height: 500px;
+	background-image: url('../img/girl.jpg');
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#sBank-stats{
+	background-color: #f2f2f2;
+	border-bottom: solid 2px #b5c0c9;
+	height: 25px;
+}
+
+#logo-text{
+	padding-top:5px;
+}
+
+#logo-image > img{
+	height: 50px;
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+}
+
+.sBank{
+	font-family: sBankLogoFont;
+	text-align: center;
+	color: white;
+	margin: 0;
+	width:100%;
+}
+.sub-logo{
+	font-size: 0.8em;
+}
+
+.logo{
+	font-size: 1.2em;
+}
+
+#sBank-nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 25px;
+	font-family: Lora;
+}
+
+#sBank-nav > nav li{
+	padding: 0 5px;
+	display: inline;
+}
+
+#sBank-nav nav a{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.btn-login {
+	font-family: sBankLogoFont;
+	color: white;
+	font-size: 15px;
+	background: #3498db;
+	padding: 10px;
+}
+
+#sBank-promotions ul{
+	padding: 0;
+}
+
+#sBank-categories{
+	margin-left: 0 !important;
+}
+
+#sBank-categories > li{
+	width: 50%;
+	float: left;
+}
+
+#sBank-promotions li{	
+	line-height: 30px;
+}	
+	
+#sBank-promotions li{
+	list-style-type: none;
+	border-bottom: solid 1px #e3e8ea;
+}	
+
+#sBank-promotions li a{
+  margin-bottom: 15px;
+  color: #222;
+}
+
+#sBank-promotions{
+	margin: 1.5% 0;
+}
+
+.sBank-currency-button{
+  
+  background-color: #313131;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  width: auto;
+  min-height: 16px;
+  color: white;
+  font-size: 0.9em;
+  line-height: 0.9em;
+  padding: 3px;
+  padding-left: 20px;
+  display: block;
+}
+
+
+/* ====================================================================
+   News feed - in the news section
+   ==================================================================== */
+
+#sBank-news article{
+  
+  max-width: 80%;
+}
+
+.sBank-news-img{
+  width: 20%;
+  margin: 16px 0;
+}
+
+.sBank-news-img > img{
+  width: 100%;
+  height: auto;
+}
+
+.sBank-news-story{
+  width: 78%;
+  padding: 0 1%;
+}
+
+.sBank-news-story{
+  text-align: justify;
+}
+
+#sBank-news footer > p{
+  margin-top: -10px;
+}
+
+
+
+/* ====================================================================
+   Currency Table
+   ==================================================================== */
+
+#sBank-currency-table-container{
+  position: relative;
+  margin: 16px 0 0 15px;
+}
+
+#sBank-currency-table-scroll{
+  margin-left: 25px;
+  overflow: auto;
+  width: 100%;
+}
+
+#sBank-currency-table{
+  width: 100%;
+}
+
+#sBank-currency-table th, #sBank-currency-table tr, #sBank-currency-table td{
+  white-space: nowrap;
+  padding: 3px;
+}
+
+#sBank-currency-table th{
+  display: table-cell;
+}
+
+#sBank-currency-table td{
+
+}
+
+#sBank-currency-table tr{
+  border-bottom: 1px solid #e3e8ea;
+  max-width: 60px;
+}
+
+#sBank-currency-table tbody tr td:first-child{
+  border-right: 1px solid #e3e8ea;
+  position: absolute;
+  left: -10px;
+  z-index: 2;
+}
+
+/* #sBank-currency-table tr:nth-child(odd):not(#sBank-currency-table th){ */
+#sBank-currency-table tr:nth-child(odd):not(#sBank-currency-table th){
+  #background-color: #08416c;
+  #color: white;
+
+  border: 1px solid black;
+}
+
+
+.lead{
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+/* ====================================================================
+   Footer
+   ==================================================================== */
+
+body > footer{
+	overflow: auto;
+	padding: 20px 0;
+}
+   
+footer ul.fa-ul {
+  color: white;
+  font-size: 0.8em;
+  margin: 16px 0;
+}
+
+body > footer ul.fa-ul a{
+	text-align: center;
+	display: block;
+}
+
+footer ul.fa-ul a:hover{
+  color: #0093de;
+  text-decoration: none;
+}
+
+
+body > footer .fa-ul i{
+	font-size: 2em;
+}
+
+   
+/* ====================================================================
+   Dialog box custom CSS
+   ==================================================================== */
+
+.link-clicked-dialog .ui-dialog-titlebar{
+  background: #0093de !important;
+  color: white;
+  font-family: sBankLogoFont;
+  text-align: center;
+}
+
+.link-clicked-dialog .ui-dialog-content{
+  font-family: sBankLogoFont;
+  font-size: 1em;
+}
+
+.link-clicked-dialog .ui-dialog-buttonpane{
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*
+	custom media queries
+*/
+
+@media screen and (max-width: 900px) /*943*/
+{
+	body > footer nav#footer-1 ul{
+		margin-left: 
+	}
+	
+	body > footer nav#footer-1 li{
+		width:90px;
+		height: auto;
+		float: left;
+		margin: 10px 0;
+	}
+	
+	body > footer .fa-ul i{
+		font-size: 2em;
+	}
+	
+	.bg{
+		max-height: 450px;
+	}
+}
+
+@media screen and (max-width: 893px) /*943*/
+{	
+	#sBank-logo{
+		width: 100%;
+		position: relative;
+		float: left;
+	}
+	
+	#sBank-nav{
+		width: 100% !important;
+		display: block;
+		text-align: center;
+		float: left;
+	}
+
+	#sBank-login{
+		width: 100% !important;
+		position: absolute;
+		top: 15px;
+		right: 25px;
+		float: right;
+	}
+	div.mobile-container{
+		max-width:100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	
+	#sBank-publications{ 
+		float: left;
+		width: 40%;
+	}
+	
+	#sBank-currency{
+		float: left;
+		width: 20%;
+	}
+	
+	#sBank-currency-list > li > span:nth-child(2){
+		display: none !important;
+	}
+	
+	#sBank-catagories{
+		width: 40%;
+		float: left;
+	}
+	
+	#sBank-promotions h2{
+		margin: 1.5% 0;
+		font-size: 1.5em;
+	}
+	
+	#sBank-news article{
+		max-width: 100%;
+		float: left;
+	}
+	
+	#sBank-news h1{
+		font-size: 1.8em;
+	}
+	
+	#sBank-news h2{
+		font-size: 1.5em;
+		margin: 1.5% 0;
+	}
+	
+	.sBank-news-img{
+		display: none;
+	}
+	
+	.sBank-news-story{
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 680px) /*943*/
+{
+	#sBank-publications{ 
+		float: left;
+		width: 50%;
+	}
+	
+	#sBank-currency{
+		float: left;
+		width: 60%;
+	}
+	
+	#sBank-currency-list > li > span:nth-child(2){
+		display: inline-block !important;
+	}
+	
+	#sBank-catagories{
+		width: 50%;
+		float: left;
+	}
+	
+	.bg{
+		max-height: 300px;
+	}
+}
+
+@media screen and (max-width: 600px) /*943*/
+{
+	body > footer nav#footer-1 li{
+		width: 25%;
+		height: auto;
+	}
+	
+	body > footer nav#footer-1 img{
+		display: block !important;
+		width: 60px;
+		height: 50px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 510px)
+{
+
+
+	/*
+		label[for="nav-trigger"]{
+		position: absolute;
+		left: 25px;
+		top: 5px;
+		z-index: 2;
+		height: 20px;
+		width: 20px;
+		cursor: pointer;
+		
+		background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='20px' height='20px' viewBox='0 0 30 30' enable-background='new 0 0 20 20' xml:space='preserve'><rect width='30' height='6' style='fill:white'/><rect y='24' width='30' height='6' style='fill:white'/><rect y='12' width='30' height='6' style='fill:white'/></svg>");
+		background-size: contain;
+	}
+	*/
+	#sBank-main-nav li, #sBank-main-nav li a, a.btn-login{
+		line-height: 30px !important;
+		width: 100%;
+		text-align: center;
+		padding: 0 !important;
+	}
+
+	label[for="menu-toggle"]{
+		cursor: pointer;
+		color: white;
+		border: 1px solid white;
+		width: 100%;
+		display: block;
+	}
+	
+	#sBank-main-nav, #menu-toggle{
+		display: none;
+		margin: 0 !important;
+	}
+	
+	#menu-toggle:checked + #sBank-main-nav {
+		display: block;
+	}
+	
+	#sBank-nav{
+		
+		position: absolute;
+		top: 109px;
+		padding: 0 !important;
+	}
+	
+	#sBank-nav > nav{
+		#position: fixed;
+		background: #06c;
+		width: 100%;
+		left: 0;
+	}
+	
+	#sBank-main-nav li a:hover{
+		background-color: #3498db;
+		text-decoration: none;
+	}
+	
+	a.btn-login:hover{
+		background-color: white;
+		color: #06c;
+	}
+	
+	#sBank-catagories, #sBank-publications, #sBank-currency{
+		width: 100%;
+	}
+	
+	.bg{
+		max-height: 200px;
+	}
+}

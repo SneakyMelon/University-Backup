@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0706008 - Designing RIch Internet Applications</title>
+        <link rel="stylesheet" href="css/main.css">
+		 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<meta charset="UTF-8">
+    </head>
+    <body>
+		<div id="dialog-confirm" title="WARNING: Please confirm">
+			<p></p>
+		</div>
+		<div id="full-container">
+			<div id="cookie">
+				<div id="runEffect">
+					<a href ="#" class="close-message">Accept and Close</a>	
+					<h1>Welcome</h1>
+					<p>
+						This website may use cookies as part of Abertay's cookie collection policy. 
+						By continuing to use this website, you agree to the <a class="cookie external-link" target="_blank" href="http://abertay.ac.uk/privacy/">Abertay University Cookie Policy</a>
+					</p>
+				</div>
+			</div>
+			<section>
+				<header>
+					<div id="heading">
+						<img src="/~0706008/ria/img/a.png" alt="Blank Image Placeholder"/>
+					</div>
+					
+					<div id="slideshow" class="slide_show"></div>
+				
+					<div class="nav-banner">
+						<nav class="top-nav">	
+							<ul class="main-nav">
+								<li><a class="nav"  href="index.html">Home</a></li>
+								<li><a class="nav dropdown" href="event.html">Events</a>
+									<ul class="nav-events">
+										<li><a href="/~0706008/ria/event/london.html">London</a></li>
+										<li><a href="/~0706008/ria/event/edinburgh.html">Edinburgh</a></li>
+										<li><a href="/~0706008/ria/event/dundee.html">Dundee</a></li>
+									</ul>
+								</li>
+								<li><a class="nav"  href="/~0706008/ria/shop.html">Shop</a></li>
+								<li><a class="nav"  href="/~0706008/ria/tutor.html">Tutor</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="white-bg">
+					<div id = "countdown">
+						<section>
+						<!-- banner that contains next race event details -->
+							<p id="timer">
+								The next <span class="location">{{LOCATION}}</span> marathon will start in <span  class="c_down">{{TIMER}}</span>
+							</p>
+						</section>
+					</div>
+				</div>
+				<main class="main">
+					<div id="content">
+						<section>
+							<div class="left column">
+								<div id="what-is-a-marathon">
+									<h1>Events Page</h1>
+									<p> <!-- Source: http://wikipedia.org/wiki/London_Marathon -->
+										Welcome to the <span class="blue">Blue</span>Marathon events page.
+									</p>
+								</div>	
+								<div>
+									<h2>Marathons</h2>
+									<p><!-- Source: http://wikipedia.org/wiki/marathon -->
+										Currently, we have three marathons happening this year:
+									</p>
+									
+									<ol>
+										<li>London</li>
+										<li>Edinburgh</li>
+										<li>Dundee</li>
+									</ol>
+	
+								</div>	
+								<!-- Information taken from the http://BUPA.co.uk/running/ website and adapted -->
+								<div class="course">
+									<h2>London</h2>  
+									
+									<div>									
+										<img src="/~0706008/ria/img/london.marathon.route.jpg" alt="Image: Route of the London marathon" />
+										<p> <!-- https://www.virginmoneylondonmarathon.com/en-gb/ -->
+										
+											The 2015 Virgin Money London Marathon Final Instructions magazines will be mailed out 
+											to all runners (apart from overseas runners who will be emailed a PDF of the Final 
+											Instructions) from Tuesday 24 March. This magazine contains all the information you
+											need to have a trouble-free Race Day on Sunday 26 April. Please read the Final 
+											Instructions carefully well ahead of Race Day. 
+											
+											<a id="ajax-london-read-more" href="#" class="continue-reading blue">Continue reading</a>
+										</p>
+									</div>
+									<div class="sponsored-events">
+										<p class="sponsored">sponsored</p>
+										<p>
+											London Marathon Links
+										</p>
+									</div>
+									<div class="bordered">
+										<div class="prep-col">
+											
+											<ul class="sponsored-run">
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/how-to-enter/" class="external-link blue">
+														&gt;&gt; How to Enter
+													</a>
+												</li>
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/charity/" class="external-link blue">
+														&gt;&gt; Get Sponsored
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="prep-col">
+											<ul class="sponsored-run">
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/event-info/accommodation-information/" class="external-link blue">
+														&gt;&gt; Accommodation
+													</a>
+												</li>
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/training/" class="external-link blue">
+														&gt;&gt; Start training
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>	
+								</div>
+								<div id="edinburgh-course" class="course">								
+									<h2>Edinburgh</h2>
+									
+									<div>
+										<img src="/~0706008/ria/img/edinburgh.marathon.route.jpg" alt="Image: Route of the London marathon" />
+										<p><!-- http://www.edinburgh-marathon.com/ -->
+											The May edition of Runner's World magazine carried out extensive research into which of
+											the 10 most popular marathons for UK runners were the fastest. A single comparison
+											(like average time) could skew the results so Runner's World used 200 different comparisons
+											to establish which was the fastest marathon and the Edinburgh Marathon came out as the 
+											fastest marathon in the UK.
+
+											<a id="ajax-edinburgh-read-more" href="#" class="continue-reading blue">Continue reading</a>
+										</p>
+									</div>
+									<div class="sponsored-events">
+										<p class="sponsored">sponsored</p>
+										<p>
+											Edinburgh Marathon Links
+										</p>
+									</div>
+									<div class="bordered">
+										<div class="prep-col">	
+											<ul class="sponsored-run">
+												<li>	
+													<a href="http://www.edinburgh-marathon.com/?entries_open" class="external-link blue">
+														&gt;&gt; How to Enter
+													</a>
+												</li>
+												<li>	
+													<a href="http://www.edinburgh-marathon.com/?charity" class="external-link blue">
+														&gt;&gt; Get Sponsored
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="prep-col">
+											<ul class="sponsored-run">
+												<li>	
+													<a href="http://www.edinburgh-marathon.com/?accommodation" class="external-link blue">
+														&gt;&gt; Accommodation
+													</a>
+												</li>
+												<li>
+													<a href="http://www.edinburgh-marathon.com/?training" class="external-link blue">
+														&gt;&gt; Start training
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div id="dundee-course" class="course">
+									<h2>Dundee</h2>
+									
+									<div>
+										<img src="/~0706008/ria/img/dundee.marathon.route.jpg" alt="Image: Route of the London marathon" />
+										<p><!-- http://www.marathonrunnersdiary.com/ -->
+											The route is a mixture of different terrains and has been described as rough and 
+											ready and unlike any other marathon in Scotland.
+										</p>
+										<p>
+											The race begins at Camperdown Park. The route then follows a clockwise course taking 
+											in the city's popular Green Circular cycleway. Runners pass through wooded areas, 
+											parkland and along a lengthy stretch the northern banks of the River Tay, over a mix 
+											of differing terrains, ending up at the finish line back at Camperdown Park.
+										</p>
+										<p>
+											The route, although not designed traditional competitive clock-watchers will make 
+											for an adventurous day out. With relay changeover points (at 8.5 and 17 miles),
+											potential traffic-crossing hotspots and testing undulations it's unlikely you will 
+											finish with a personal best. However runners will enjoy any stops, providing an excuse
+											for a momentary breather and chance to admire the fantastic view. 
+											<a id="ajax-dundee-read-more" href="#" class="continue-reading blue">Continue reading</a>
+										</p>
+									</div>
+								</div>
+								<div class="sponsored-events">
+									<p class="sponsored">sponsored</p>
+									<p>
+										Dundee Marathon Links
+									</p>
+								</div>
+								<div class="bordered">
+									<div class="prep-col">	
+										<ul class="sponsored-run">
+											<li>	
+												<a href="http://www.marathonrunnersdiary.com/races/uk-marathons/dundee-running-adventure-marathon.php" class="external-link blue">
+													&gt;&gt; How to Enter
+												</a>
+											</li>
+											<li>	
+												<a href="http://www.marathonrunnersdiary.com/marathon-charities/" class="external-link blue">
+													&gt;&gt; Get Sponsored
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="prep-col">
+										<ul class="sponsored-run">
+											<li>	
+												<a href="http://www.marathonrunnersdiary.com/running-gear/" class="external-link blue">
+													&gt;&gt; Running gear
+												</a>
+											</li>
+											<li>
+												<a href="http://www.marathonrunnersdiary.com/marathon-training/" class="external-link blue">
+													&gt;&gt; Start training
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<aside class="right column">
+								<div id="one">
+									<p>
+										Loading content . . .
+									</p>
+								</div>
+								<div id="two">
+									<p style="margin-top: 350px">
+										Loading content . . . 
+									</p>
+								</div>
+								<div id="three">
+									<p style="margin-top: 350px">
+										Loading content . . . 
+									</p>
+								</div>
+								<div id="four">
+									<p style="margin-top: 350px">
+											Loading content . . . 
+									</p>
+								</div> 
+							</aside>
+						</section>
+					</div>
+				</main> 
+			</section>
+			
+			<footer class="footer-foot">					
+				<section class="footer-text">
+					<img src="/~0706008/ria/img/text-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Text Sources</h2>
+					<p>
+						The text for this site has been taken from a range of websites, 
+						and can be found <a href="tutor.html">here</a>.
+					</p>
+				</section>
+				<section class="footer-images">
+					<img src="/~0706008/ria/img/image-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Image Sources</h2>
+					<p>
+						Images are copyright of their respective owners. 
+						Taken from advanced search of GOOGLE.
+					</p>
+				</section>
+				
+				<section class="footer copy">
+					<img src="/~0706008/ria/img/copyright-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Copyright</h2>
+					<p>
+						Created for educational use. 
+						This website has no copyright, and is free to use for any purpose.
+					</p>	
+				</section>
+				<div class="footer-foot-foot">
+					<nav>	
+						<ul class="footer-nav">
+							<li class="li-first" ><a href="/~0706008/ria/index.html">Home</a></li>
+							<li><a href="/~0706008/ria/event.html">Events</a></li>
+							<li><a href="/~0706008/ria/shop.html">Shop</a></li>	
+							<li class="li-last"><a  href="/~0706008/ria/tutor.html">Tutor</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		
+		
+		<!-- SCRIPT TAGS -->
+		
+		<!-- CDN Hosts for libraries (Saves space as my quota is exceeded its limit) -->
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+		<!-- JS files that have been made myself -->
+		<script src="js/timer.js"></script>
+		<script src="js/slider.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/plugin/plugin.ria.data.js"></script>
+		<script src="js/plugin/plugin.ria.latest.js"></script>
+
+    </body>
+</html>

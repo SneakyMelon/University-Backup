@@ -1,0 +1,56 @@
+!important
+  1 save to right storage on web server
+  2 change files from html to htm
+  3 http://0706008.studentplus.abertay.ac.uk/ce0831a/coursework/index.htm
+  4 demp: [fri 9.00am]
+
+pages
+  1 things to do
+    1.1 swimming
+    1.2 cinema
+    1.3 DCA
+    1.4 ice skating
+    1.5 verdant works
+  2 places to go
+    2.1 find some cenery that makes dundee look good
+  3 Meet the Dundonians
+    3.1 parks
+    3.2 community centers
+      3.2.1 ardler
+      3.2.2 kirkton
+      3.2.3 st marys
+      etc
+  4 about us
+  5 contact us
+    5.1 create a form to contact via. 
+    5.2 email, message, subscribe to news leter, etc
+
+accessability
+  1 check via validator
+  2 create content skip-to
+  3 create ul/ ol for accessabilty
+  4 ceck page without css - so it looks good and reads in right order
+
+general
+  1 combine css sheets
+  2 create content
+  3 get legal info
+    3.1 create links for footer hyperlinks (#?)
+    3.2 check t.o.s still makes sense
+  4 images
+    4.1 large images for desktop
+    4.2 scaled images for smaller devices
+  5 remove/ change for new: opening hours
+
+fixes
+  1 fix footer
+    1.1 set from bottom: 0; to align ul links evenly
+    1.2 break quote from comma to allow better loks on smaller large screens
+    1.3 create footer small device responsive design look
+  2 make CSS sheets readable an fix white spaces
+  3 change size of text for h1 on small devices to bigger
+
+reading
+  1 check up on css selectors again (+ > ~)
+    1.1 http://www.quirksmode.org/css/selectors/
+  2 understand code for demo [fri 9.00am]

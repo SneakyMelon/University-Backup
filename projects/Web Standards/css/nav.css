@@ -1,0 +1,247 @@
+
+/*Nav design - me*/
+header
+{ height: 150px;
+  background: #0043A8;
+  background: -moz-linear-gradient(#43A9FF, #0043A8);
+  background: -o-linear-gradient(#43A9FF, #0043A8);
+  background: -webkit-linear-gradient(#43A9FF, #0043A8);}
+  
+#title{
+	max-width: 1000px;
+	margin: 0 auto;
+	}
+
+#title-welcome{
+    height: 105px;
+}
+
+.fancyfont{
+    font-family: 'permanent marker' !important;
+}
+
+h1.fancyfont{
+    font-size: 3em;
+    margin: 0 0 0 2%;
+	color: white;
+}
+
+h2.fancyfont{
+    padding-left: 30%;
+    padding-bottom: 0.2em;
+    font-size: 2em;  
+	color: white;
+}
+
+nav{
+    height: 60px;
+}
+
+nav a{
+	color: white;
+}
+
+#toggle, .toggle {
+     display: none;
+}
+
+.nav-menu > li {
+     float:left;
+     list-style: none;
+}
+
+@media only screen and (max-width: 786px) {
+     .nav-menu {
+          display: none;
+          opacity: 0;
+          position: absolute;
+          right: 0;
+          width: 100%;
+     }
+
+     .nav-menu li {
+          display: block;
+          margin: 0;
+          width: 100%;
+     }
+
+     .nav-menu li a {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display: block;
+          text-decoration: none;
+          width: 100%;
+     }
+
+     .toggle {
+          cursor: pointer;
+          display: block;
+          position: relative; 
+          -webkit-touch-callout: none; /* Disables OS callout when touching and holding a link */
+          -webkit-user-select: none;
+     }
+
+     #toggle:checked ~ .nav-menu, .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+          display: block;
+          opacity: 1;
+     }
+	 
+	 #side-columb{ 
+		width: 35%;
+	}
+	#content-contents{
+		width: 65%;
+	}
+	#content-contents img{
+		width: 90%;
+	}
+}
+
+/*--------------------------------
+ Presentation Styles (Editable)
+---------------------------------*/
+
+
+.menu-main-nav-container { 
+    display: block; 
+    float: left; 
+
+    margin: 0 auto;
+}
+
+nav a:visited, nav a:active{
+    color: white;
+}
+
+.nav-menu, .nav-menu > li, .nav-menu > li > a { 
+     height: 100%; 
+}
+
+.nav-menu li a {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box; 
+     box-sizing: border-box;
+     display: block;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 1;
+     padding: 10px 20px;
+     text-align: left;
+     text-decoration: none;
+     -webkit-transition: all 0.25s linear;
+     -moz-transition: all 0.25s linear;
+     -o-transition: all 0.25s linear;
+     transition: all 0.25s linear;
+}
+
+.nav-menu li a:hover, .nav-menu li a:focus {
+     background: #F2F2F2;
+     box-shadow: inset 5px 0 0 #51C1F1;
+     color: #51C1F1;
+     padding-left: 30px;
+}
+
+.toggle {
+	float: left;
+     margin: 0 auto;
+     max-width: 365px!important;
+     z-index: 2; 
+}
+
+@media only screen and (max-width: 786px){
+
+	.person{
+		padding: 0;
+	}
+	
+     .nav-menu {
+          background: #0043A8;
+          border-top: 1px solid #51C1F1;
+          padding-top: 1em;
+     }
+
+     .nav-menu, .nav-menu > li, .nav-menu > li > a {
+          height: auto;
+     }
+
+     .nav-menu > li > a{
+          padding: 15px 15px;
+     }
+
+     .nav-menu > li > a:hover, .nav-menu > li > a:focus {
+          background: #F2F2F2;
+          box-shadow: inset 5px 0px #51C1F1;
+          padding: 15px 15px 15px 25px;
+     }
+
+     .toggle:after {
+          background: #51C1F1;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; 
+          color: #FFFFFF;
+          content: attr(data-open);
+          display: block;
+          font-size: 12px;
+          margin: 15px 0 0 0;
+          padding: 10px 50px;
+          text-align: center;
+          -webkit-transition: all 0.5s linear;
+          -moz-transition: all 0.5s linear;
+          -o-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+          width: 300px;
+     }
+
+     .toggle:hover:after {
+	     background: #45ABD6;
+     }
+
+     #toggle:checked + .toggle:after {
+	     content: attr(data-close);
+     }
+}
+
+@media only screen and (max-width: 479px){
+
+
+	.toggle:after { 
+		text-align: center; 
+		width: 100%; 
+	}
+
+	h1{
+		font-size: 2em !important;
+	}
+	
+	h2.fancyfont{
+		font-size: 1.5em !important;
+	}
+	
+	#side-columb{
+		float: left;
+		width: 100%
+	}
+	
+	#content-contents{
+		width: 100% !important;
+	}
+	
+	.hide-on-device
+	{ 
+		visibility: hidden;
+		display: none;
+	}
+	.show-on-device{
+		visibility: visible;
+		display: block;
+	}
+	
+	.side-columb{
+		padding: 0px;
+	}
+}
+

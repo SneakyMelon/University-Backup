@@ -1,0 +1,41 @@
+Coding
+http://phpcodechecker.com/
+http://w3schools.com
+http://www.php.net
+http://stackoverflow.com/
+http://uk3.php.net/manual/en/mysqli-result.num-rows.php
+http://www.php.net/manual/en/function.preg-match.php
+Images
+https://www.google.co.uk/search?q=phone%20icon
+https://www.google.co.uk/search?q=fax%20icon
+https://www.google.co.uk/search?q=email%20icon
+https://www.google.co.uk/search?q=social+media+icons
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Balmoral_Castle.jpg/1280px-Balmoral_Castle.jpg
+http://www.balmoralcastle.com/picts/logo.png
+Images/ 9-page-gallery
+http://www.ukthebest.co.uk/scripts/show_img.php?cmd=show&amp;id=246
+https://s3.amazonaws.com/suite101.com.prod/article_images/large/2191179_com_osborne_ho.jpg
+http://www.duncanstourscotland.com/wp-content/gallery/castles-scotland/front-of-balmoral.jpg
+http://farm6.staticflickr.com/5467/9372126823_1566ee0626_c.jpg
+http://www.hdwpapers.com/download/balmoral_castle_wallpaper_2-800x600.jpg
+http://farm8.staticflickr.com/7426/9374851606_60657ec14f_c.jpg
+http://www.hdwpapers.com/download/balmoral_castle_scotland_wallpaper-800x600.jpg
+http://www.hdwpapers.com/download/balmoral_castle_wallpaper-800x600.jpg
+http://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Balmoral_Castle.jpg/800px-Balmoral_Castle.jpg
+http://m.travelpn.com/images/edinburgh/hotel/0/028262/Guest_room_F_3.jpg
+http://m.travelpn.com/images/edinburgh/hotel/0/028262/Guest_room_F_4.jpg
+http://m.travelpn.com/images/edinburgh/hotel/0/028262/Suite_F_3.jpg
+http://aff.bstatic.com/images/hotel/max500/219/2194912.jpg
+http://www.traveldelacreme.com/wp-content/gallery/balmoral/beauly-suite.jpg
+CSS
+http://www.inserthtml.com/demo/colorful-menu/
+http://fonts.googleapis.com/css?family=Allura
+Maps
+http://maps.google.com
+Text
+http://www.balmoralcastle.com/about.htm
+HTML Form
+http://faary.com/
+HTML Profile Example
+http://cdn0.tnwcdn.com/files/2010/08/4sq1.jpg
+http://www.foursquare.com/den/

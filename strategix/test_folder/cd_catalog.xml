@@ -1,0 +1,39 @@
+<Database>
+<section>
+<img>
+<![CDATA[ <img src="images/database/ERM.jpg" ]]>
+</img>
+<title>ERM</title>
+<text>
+The ERM diagram is a visual display of the database. This is used to show how all the tables within a database link together. This can aid database designers as often at a quick glance, they can calculate how many tables will be required. Another use for them is that they can be used very effectively to recognise the various relationships that they each table will have with another. These relationships come in the forms of a 1 to 1 (1..1), 1 to many (1..*) or many to many (*..*).
+</text>
+</section>
+<section>
+<img>
+<![CDATA[ <img src="images/database/Mapping.jpg" ]]>
+</img>
+<title>Mapping</title>
+<text>
+Once the ERM model is in place, it is then possible to map the diagram. Although it is possible to roughly gauge how many tables will be required from simply glancing at an ERM diagram, to find the exact number the database model must be mapped. This breaks down the structure into a list like format, allowing the database designer to see exactly what tables must be built for the database.
+</text>
+</section>
+<section>
+<img>
+<![CDATA[ <img src="images/database/SQL.jpg" ]]>
+</img>
+<title>SQL</title>
+<text>
+To search through any database, SQL queries are required. These are usually written in small snippets, allowing for specific search results to be returned. The SQL queries follow structure SELECT, FROM, WHERE, with possible conditions, allowing nested queries.
+</text>
+</section>
+<section>
+<img>
+<![CDATA[ <img src="images/database/Normalisation.jpg" ]]>
+images/database/Normalisation.jpg
+</img>
+<title>Normalisation</title>
+<text>
+Normalisation breaks down a large table into smaller tables, this is done to try and rid the database of any possible anomalies that may occur. These could occur though NULL values or simply errors within the data. Normalisation, although possibly time consuming will allow correct validation of the database, but can also make the data easier to read and understand.
+</text>
+</section>
+</Database>

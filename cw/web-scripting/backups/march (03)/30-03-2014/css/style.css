@@ -1,0 +1,256 @@
+
+/* Custom Web Fonts using Google Fonts
+//
+// https://www.google.com/fonts#QuickUsePlace:quickUse/Family:
+//
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
+/*Resets and defaults*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#wrapper{
+	/*Removes CSS trick with menu,
+	  change if i want to remove later...*/
+	/*background-image: url('../images/pattern.png');*/
+	padding-top: 1%;
+	overflow: hidden;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Allura', cursive;
+}
+
+/* 
+/*  style the heading and give the animation effect */
+/* 	Idea from [with some edits]
+/* 		http://www.inserthtml.com/
+*/
+
+#header{
+	clear: both;
+}
+
+#menu, #menu ul {
+	/* Remove bullet points and add fonts */
+	list-style: none;
+	width: 750px;
+	position: relative;
+	margin: 0px auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#menu li {
+	/* Horizontal menu, not vertical. Then just a little extra positioning */
+	float: left;
+	position: relative;
+	overflow: hidden;	
+	margin-right: 10px;
+	height: 40px;
+	
+}
+
+#menu li a {
+	/* Clear up the links and position them correctly */
+	color: #000;
+	padding: 0 15px;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	height: 40px;
+	padding: 10px 15px;
+	font-weight: bold;
+	/* Quick animations to animate the anchor */
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+}
+
+#menu li span {
+	/* Default width of the span (acts as border). Z-index so it appears behind the words. */
+	width: 6px;
+	z-index: -1;
+	/* Position it absolutely so it goes where we want it to go */
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	/* Animation again, because both the span and the anchor will be animated */
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+}
+
+#menu li:nth-of-type(1) span { background: #c04545; }
+#menu li:nth-of-type(2) span { background: #c06b45; }
+#menu li:nth-of-type(3) span { background: #88c045; }
+#menu li:nth-of-type(4) span { background: #48c045; }
+#menu li:nth-of-type(5) span { background: #45c0aa; }
+#menu li:nth-of-type(6) span { background: #4576c0; }
+
+#menu li:hover > span {
+	min-width: 100%;
+}
+
+#menu li a:hover {
+	color: #fff;
+}
+
+#menu .sub-menu li {
+	padding: 10px;
+	float: left;
+}
+
+#menu li:hover {
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+/* End of Nav.Menu*/
+
+/* Header*/
+header{
+	height: 220px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#head{
+	width: 550px;
+	margin: 0 auto;
+}
+
+#title-img img{
+	float: left;
+}
+
+#title h1{
+	font-family: 'Allura', cursive;
+	font-size: 3em;
+	float: left;
+}
+
+/* End of Header*/
+
+/* Content start*/
+
+#content{
+	/*background-color: yellow;*/
+	min-height: 1000px;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-top   : 1px solid #4576c0;
+}
+#contents{
+	float: left;
+	/*background-color: pink;*/
+	width: 75%;
+	padding-bottom: 2%;
+}
+
+#contents img{
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	max-height: 260px;
+}
+
+#contents h2{
+	padding-left: 5%;
+	font-size: 2em;
+}
+
+#side-columb{
+	float: right;
+	/*background-color: green;*/
+	width: 25%;
+}
+
+#contents p{
+	padding: 0 5%
+}
+
+#contents p:first-of-type:first-letter{
+	font-size: 200%;
+	font-weight: bold;
+	font-family: 'Allura', cursive;
+}
+
+
+#contents p:nth-of-type(1){
+	line-height: 1.2em;
+}
+
+#contents  p{
+	margin-bottom: 0;
+}
+.sourced{
+	float: right;
+	padding: 0 5%;
+	margin: 0 auto;
+	display: block;
+	color: red;
+}
+/* Content end*/
+
+/* FOOTER*/
+footer{
+	border-top: 1px solid #4576c0;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+.foot{
+	width: 24%;
+	height:250px;
+	/*background-color: green;*/
+	float: left;
+}
+/*
+.c1, .c2, .c3{
+	margin: 0 1% 0 0;
+	
+}
+*/
+.c1, .c3{
+	border-right: 3px solid  #c04545;
+}
+
+.c4{
+	padding-left: 15px;
+}
+
+.social{
+	width: 50px;
+	height: 50px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+footer a{
+	font-size: 0.8em;
+}
+
+.fleft{
+	float: left;
+	margin-left: 5%;
+}
+
+iframe{
+	padding-top: 25px;
+	border: 0;
+}
+
+#copy{
+	border-top: 1px solid #4576c0;
+	margin-top: 25px;
+	float: left;
+	width: 1000px;
+	
+}

@@ -1,0 +1,13 @@
+[03-Mar-2015 19:05:30 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:05:30 UTC] PHP Warning:  mysql_query(): Access denied for user 'sneakymelon'@'localhost' (using password: NO) in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:05:30 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:06:26 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:06:26 UTC] PHP Warning:  mysql_query(): Access denied for user 'sneakymelon'@'localhost' (using password: NO) in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:06:26 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:07:17 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:09:14 UTC] PHP Notice:  Undefined variable: con in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:09:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/sneakymelon/public_html/uni/dave/register.php on line 40
+[03-Mar-2015 19:11:14 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/sneakymelon/public_html/uni/dave/register.php on line 14
+[03-Mar-2015 19:13:03 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/sneakymelon/public_html/uni/dave/register.php on line 14
+[03-Mar-2015 19:13:06 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/sneakymelon/public_html/uni/dave/register.php on line 14
+[03-Mar-2015 19:13:28 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/sneakymelon/public_html/uni/dave/register.php on line 18

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0706008 - Designing RIch Internet Applications</title>
+        <link rel="stylesheet" href="/~0706008/ria/css/main.css">
+		 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<meta charset="UTF-8">
+    </head>
+    <body>
+		<div id="dialog-confirm" title="WARNING: Please confirm">
+			<p></p>
+		</div>
+	
+		<div id="full-container">
+			<div id="cookie">
+				<div id="runEffect">
+					<a href ="#" class="close-message">Accept and Close</a>	
+					<h1>Welcome</h1>
+					<p>
+						This website may use cookies as part of Abertay's cookie collection policy. 
+						By continuing to use this website, you agree to the <a class="cookie external-link" target="_blank" href="http://abertay.ac.uk/privacy/">Abertay University Cookie Policy</a>
+					</p>
+				</div>
+			</div>
+			<section>
+				<header>
+					<div id="heading">
+						<img src="img/a.png" alt="Blank Image Placeholder"/>
+					</div>
+					
+					<div id="slideshow" class="slide_show"></div>
+				
+					<div class="nav-banner">
+						<nav class="top-nav">	
+							<ul class="main-nav">
+								<li><a class="nav"  href="/~0706008/ria/index.html">Home</a></li>
+								<li><a class="nav dropdown" href="/~0706008/ria/event.html">Events</a>
+									<ul class="nav-events">
+										<li><a href="/~0706008/ria/event/london.html">London</a></li>
+										<li><a href="/~0706008/ria/event/edinburgh.html">Edinburgh</a></li>
+										<li><a href="/~0706008/ria/event/dundee.html">Dundee</a></li>
+									</ul>
+								</li>
+								<li><a class="nav"  href="/~0706008/ria/shop.html?q=running;5">Shop</a></li>
+								<li><a class="nav"  href="/~0706008/ria/tutor.html">Tutor</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="white-bg">
+					<div id = "countdown">
+						<section>
+						<!-- banner that contains next race event details -->
+							<p id="timer">
+								The next <span class="location">{{LOCATION}}</span> marathon will start in <span  class="c_down">{{TIMER}}</span>
+							</p>
+						</section>
+					</div>
+				</div>
+				<main class="main">
+					<div id="content">
+						<section>
+							<div class="left column">
+								<h2>Let's go shopping!</h2>
+								
+								<form id="frmShop">
+									<label for="txtSearch">Search the Store for:</label>
+									<input id="txtSearch" name="txtSearch" type="text" value="" placeholder="Running shoes"/>
+									<label for="nmrPaginate">Limit results to:</label>
+									<input id="nmrPaginate" name="nmrPaginate" type="number" value="3" max="5" min="2" />
+									<input type="submit" value="Search the Shop" />
+								</form>
+							</div>
+							<aside class="right column">
+								<!--
+									Plugin Formatting: This will work for as many as you want to include:
+										::requires the following format to display properly:
+					
+									<div id="______AN_ID_REFERENCE" class="fact-list">
+										<h2>Some info to describe the text generator</h2>
+											<div class="fact">
+												<p>	
+													Some placeholder text while the plugin awaits information
+													. . .
+												</p>
+											<div>
+												CANVAS TO DRAW TOO (USES CHARTJS :: http://www.chartjs.org/
+												<canvas class="chart"></canvas>
+											</div>
+										</div>
+									</div>
+								-->
+								
+								<!-- Shows versitility of plugin:: will remove before adding content -->
+								<div id="one"><p>Loading . . .</p></div>
+								
+								<!-- 
+									Can be added to as many DIVs as you want, just add it into the selector in JavaScript
+									file $("div, div2, div3, etc...").factGen(options, data);
+								-->
+								
+								
+								<div id="two"></div>
+								<!--
+									<div id="three"></div>
+									<div id="four"></div> 
+								-->
+							</aside>
+						</section>
+					</div>
+				</main> 
+			</section>
+			
+			<footer class="footer-foot">					
+				<section class="footer-text">
+					<img src="img/text-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Text Sources</h2>
+					<p>
+						The text for this site has been taken from a range of websites, 
+						and can be found <a href="tutor.html">here</a>.
+					</p>
+				</section>
+				<section class="footer-images">
+					<img src="img/image-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Image Sources</h2>
+					<p>
+						Images are copyright of their respective owners. 
+						Taken from advanced search of GOOGLE.
+					</p>
+				</section>
+				
+				<section class="footer copy">
+					<img src="img/copyright-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Copyright</h2>
+					<p>
+						Created for educational use. 
+						This website has no copyright, and is free to use for any purpose.
+					</p>	
+				</section>
+				<div class="footer-foot-foot">
+					<nav>	
+						<ul class="footer-nav">
+							<li class="li-first" ><a href="/~0706008/ria/index.html">Home</a></li>
+							<li><a href="/~0706008/ria/event.html">Events</a></li>
+							<li><a href="/~0706008/ria/shop.html">Shop</a></li>	
+							<li class="li-last"><a  href="/~0706008/ria/tutor.html">Tutor</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		
+		
+		<!-- SCRIPT TAGS -->
+		
+		<!-- CDN Hosts for libraries (Saves space as my quota is exceeded its limit) -->
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		
+		
+		<!-- JS files that have been made myself -->
+		<script src="/~0706008/ria/js/timer.js"></script>
+		<script src="/~0706008/ria/js/slider.js"></script>
+		<script src="/~0706008/ria/js/main.js"></script>
+		<script src="/~0706008/ria/js/plugin/plugin.ria.data.js"></script>
+		<script src="/~0706008/ria/js/plugin/plugin.ria.latest.js"></script>
+		<script src="/~0706008/ria/js/service.ebay.shop.js"></script>
+    </body>
+</html>

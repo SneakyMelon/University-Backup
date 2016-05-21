@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>sBank - Scotlands only Online and Digital Banking</title>
+        <meta name="description" content="Scotlands only online bank that provides the best quality for money.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <!-- External JavaSript Vendors -->
+       	<script defer src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- External vendors-->
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+		<!-- Internal Styling sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/flag-icon.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bs/bootstrap.css">
+		<link rel="stylesheet" href="css/login.css">
+    </head>
+    <body class="light-blue">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<!-- <div id="dialog-message" title="Example Home Page Only" class="ui-dialog">
+			<p>
+				Thank you for testing this website. 
+			</p>
+			
+			<p>
+				Links do not work, and are only here to be used as place holders. 
+				Please use the login button at the top of the page.
+			</p>
+		</div> -->
+
+		<section id="main" class="secure-login">
+			<div id="logo-image">
+				<a href="index.html">
+					<img src="img/bank_logo.png" alt="sBank Logo" />
+				</a>
+			</div>
+			<div id="logo-text">
+				<h1 class="logo sBank"><a href="index.html">sBank. Scotland's #1 Bank.</a></h1>
+				<h2>User Authentication</h2>
+			</div>
+
+			<div id="content">
+				<form action="secure-account.html" method="POST" autocomplete="off">
+					
+						
+						<p>You are seeing this page because you have chosen to use multi-factor authentication to access your account.</p>
+						<p>To authenticate, use the plugin to take a selfie.</p>
+						
+					
+						<div class="container-fluid" style="max-height: 80%;">
+							<div class="row">
+								<img id="selfie-login" class="img-fluid" src="img/gotta-take-a-selfie.png" alt="Take a selfie to show it is you." />
+							</div>
+							
+							<input type="submit" class="selfie-btn selfie btn" value="TAKE SELFIE">
+							
+						</div>
+						<!--
+							<div class="col-sm-1">
+								icon
+							</div>
+						
+						// not sure if needed bcause text above kind of explains in detail
+						
+						
+						//However, it does need a "cant access account, send pin to email or text or w/e"
+						// Based of of Facebook 2-factor authenitcaion
+						-->
+				</form>
+			</div>
+		</section>
+		
+		<footer>
+			<ul class="">
+				<li class=""><a href="#" title="Return to the Home page.">sBank</a></li>
+				<li class=""><a href="#" title="View our Usability Guidelines.">Usability</a></li>
+				<li class=""><a href="#" title="View our Accessibility guidelines.">Accessibility</a></li>
+				<li class=""><a href="#" title="We take security very seriously. So should you. Learn more...">mySecurity </a></li>
+			</ul>
+			
+			<p>&copy; 2016 ScotBank. sBank is a registered Trademark in Scotland.</p>
+		</footer>
+    </body>
+</html>

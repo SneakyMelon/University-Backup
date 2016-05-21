@@ -1,0 +1,29 @@
+<database>
+	<topic>
+		<title><![CDATA[ <h2>About Image manipulation</h2> ]]></title>
+		<text>
+			Image editing encompasses the processes of altering images, whether they are digital photographs, traditional photochemical photographs, or illustrations. Traditional analog image editing is known as photo retouching, using tools such as an airbrush to modify photographs, or editing illustrations with any traditional art medium. Graphic software programs, which can be broadly grouped into vector graphics editors, raster graphics editors, and 3D modelers, are the primary tools with which a user may manipulate, enhance, and transform images. Many image editing programs are also used to render or create computer art from scratch.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>Basics</h2> ]]></title>
+		<text>
+			Raster images are stored in a computer in the form of a grid of picture elements, or pixels. These pixels contain the image's color and brightness information. Image editors can change the pixels to enhance the image in many ways. The pixels can be changed as a group, or individually, by the sophisticated algorithms within the image editors. The domain of this article primarily refers to bitmap graphics editors, which are often used to alter photographs and other raster graphics. However, vector graphics software, such as Adobe Illustrator, CorelDRAW, Xara Designer Pro or Inkscape, are used to create and modify vector images, which are stored as descriptions of lines, Bézier curves, and text instead of pixels. It is easier to rasterize a vector image than to vectorize a raster image; how to go about vectorizing a raster image is the focus of much research in the field of computer vision. Vector images can be modified more easily, because they contain descriptions of the shapes for easy rearrangement. They are also scalable, being rasterizable at any resolution.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[<h2>image Enhncement</h2>]]></title>
+		<text>
+			In computer graphics, the process of improving the quality of a digitally stored image by manipulating the image with software. It is quite easy, for example, to make an image lighter or darker, or to increase or decrease contno. Advanced photo enhancement software also supports many filters for altering images in various ways.[1] Programs specialized for image enhancement are sometimes called image editors.
+		</text>
+	</topic>
+	<topic>
+		<title><![CDATA[ <h2>Special effects</h2> ]]></title>
+		<text>
+			Image editors usually have a list of special effects that can create unusual results. Images may be skewed and distorted in various ways. Scores of special effects can be applied to an image which 	include various forms of distortion, artistic effects, geometric transforms and texture effects,[3] or combinations thereof.
+		</text>
+	</topic>
+	<source>
+		<![CDATA[ <a href="http://en.wikipedia.org/wiki/Image_editing">Sourced from here</a>]]>
+	</source>
+</database>

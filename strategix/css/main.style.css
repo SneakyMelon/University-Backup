@@ -1,0 +1,411 @@
+	
+	/*
+	*	
+	*	Name			: 	Allan Davidson
+	*	Student Number	: 	0706008
+	*	Module			: 	Advanced Web Scripting
+	*
+	*	Purpose			: 	CSS Document for courswork.
+	*	Copyright		: 	None.
+	*/
+
+	/* Start of Custom CSS */
+body{
+	background-color: #222; /* purple */
+	font-family: "Fjord One";
+	color: #333;
+}
+
+
+#nav-wrapper{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	width: 100%;
+	/* overflow: hidden; */
+	color: white;
+	height: auto;
+	border-bottom: 1px solid white;
+}
+.row{
+	min-height: 40px;
+	margin: 0 auto;
+	max-width: 1200px;
+	/* overflow: visible; */
+}
+
+.nav-row{
+	width	: 100%;
+	position: relative;
+	left	: 0 !important;
+	font-family: "Fjord One", tahoma;
+}
+
+#page-nav{
+	width	: 1200px;
+	display	: block;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.buttonless{
+	float	: left;
+	line-height: 60px;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;	
+}
+
+#page-nav  li a{
+	padding: 27px 35px;
+	color: white;
+	letter-spacing: 3px;
+	position: relative;
+	display: block;
+	font-size: 0.8125em;
+	width: 100%;
+	line-height: 45px;
+}
+.main-logo{
+	font-family: "Cinzel";
+	letter-spacing: 1px;
+	font-size: 2.68em; /* Weird number because lazy to change 
+						* the padding of the whole
+						* navigation menu
+						*/
+	text-transform: none;
+}
+.main-logo > span{
+	font-size: 1.2em;
+}
+.logo{
+	padding: 13px 0 13px 0 !important;
+	display: inherit;
+}
+
+#page-nav li a img{
+	width: 188px;
+	height: 73px;
+	margin: 0 5px 0 5px;
+}
+#page-nav  li a:hover, #page-nav  li a:active{
+	background-color: black;
+}
+
+.block{
+	display: block;
+}
+
+/* END OF HEADER STYLING */
+
+/* START OF secondary HEADER STYLING */
+
+#second-nav > div{
+	padding: 5px 0 ;
+}
+
+#second-nav{
+	background-color: white;
+	line-height: 1.6;
+	min-width: 1200px;
+	min-height: 40px;
+	position: relative;
+	z-index: 1;
+}
+
+#second-nav ul{
+	max-width: 1200px;
+	margin: 0 auto !important;
+	min-height: 35px;
+	margin: 0 auto;
+}
+#second-nav a{
+	padding: 3px 10px;
+	display: block;
+	color: #000;
+}
+
+#second-nav a:hover{
+	color: #222;
+	text-shadow: 2px 2px 4px #c0c0c0;
+}
+
+#second-nav ul li{
+	line-height: normal !important;	
+	padding: 5px 15px;
+}
+
+.center-nav{
+	border-top		: 1px solid #DDD;
+	border-bottom	: 1px solid #DDD;
+}
+
+.sitemap{
+		
+		margin-left: 80px;
+}
+.sitemap  li, ol li
+{
+	list-style-type: disc !important;
+	margin: 8px 0;
+}
+
+
+/* END OF secondary   HEADER STYLING */
+
+/* START OF CONTENT STYLING */
+
+#content{
+	min-height: 1200px;
+	background-color: #fff;
+}
+
+#min, #max, #pwlen
+{
+	width: 50px;
+}
+
+.l > p{
+	margin: 12px 12px 12px 50px;
+}
+
+
+.p20{
+		margin: 50px !important;
+}
+
+.r > h2{
+	font-size: 1.8em;
+	text-align: center;
+	margin: 10px 0;
+}
+#content-body img{
+
+	width: 100%;
+	height: 250px;
+}
+
+.l {	
+	float: left;
+	max-width: 750px;
+}
+
+.ll{
+	width: 100%;
+	color: white;
+	float: left;
+}
+
+.r > h3{
+	margin: 20px 10px 10px 25px;
+	text-decoration: underline;
+}
+
+.r{
+	margin: 50px !important;
+	background-color: #222;
+	color: white;
+	width: 300px;
+	float: right;
+}
+
+.r p{
+	margin: 15px
+}
+
+.side-panel-link{
+	color: white;
+	font-weight: bold;
+}
+
+.side-panel-link:hover{
+	text-decoration: underline !important;
+}
+
+.border{
+	margin: 50px 0 0 0;
+	border-top: 4px double #7B7B7B;
+	border-bottom: 4px double #7B7B7B;
+}
+
+.content-header{
+	font-size: 3em;
+	padding-left: 50px;
+}
+
+.not-menu{
+	position: relative;
+	/*background-color: red;*/
+	top: 99px;
+	box-sizing: border-box;
+	display: block;
+	z-index: 0;
+}
+
+
+
+/* END OF CONTENT STYLING */
+
+/* START OF CONTACT PHP */
+textarea{
+
+	resize: none;
+	height: 100px;
+}
+
+.padMeUp{
+
+	padding: 10px 50px !important;
+
+}
+
+.p10{
+
+	margin-bottom: 10px;
+}
+
+
+
+
+#contactForm
+{
+	max-width: 400px;
+}
+
+#contactForm li
+{
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+
+#contactForm label
+{
+	margin: 0 0 3px 0;
+	padding: 0;
+	display: block;
+	font-weight: bold;
+}
+
+#contactForm input
+{
+	box-sizing: border-box;
+	border: 1px solid #BEBEBE;
+	padding: 7px;
+	margin: 0;
+	outline: none;
+}
+
+#contactForm input[type="submit"]
+{
+	margin-left: 150px;
+	background-color: #333;
+	color: white;
+}
+
+.long
+{
+	width: 100%;
+}
+
+.short
+{
+	width: 49%;
+}
+
+#frmContactPage{
+	margin: 75px;
+}
+
+/* END OF CONTACT PHP */
+
+
+/* START OF ABOUT PAGE */
+
+
+#abtCompany
+{
+	margin-left: 50px !important;
+}
+
+#abtCompany li{
+	padding: 7px;
+}
+
+#abtCompany li a{
+	text-decoration: underline;
+}
+
+/* END OF ABOUT PAGE */
+
+
+div.l form, div.l form ul li, form ul li input[type="submit"]{
+	margin: 7px;
+}
+
+
+#topics li
+{
+	float: left;
+	padding: 10px;
+	color: #222
+	
+}
+
+#topics li a, #topics li a:visited{
+	color: #222;
+	text-decoration: underline !important;
+}
+#topics li a:hover{
+		text-decoration: none !important;
+}
+div.l form{
+	margin-left: 150px;
+	}
+#xxx > h2{
+	font-size: 1.5em;
+	margin: 5px 0 !important;
+}
+/* START OF FOOTER STYLING */
+
+footer{
+	background-color: #222;
+	color: white;
+	position: relative;
+	height: 125px;
+	padding: 2px 0;
+	border-top: 4px double #7B7B7B;
+	border-bottom: 4px double #7B7B7B;
+	overflow: hidden;
+	margin: 0 auto 25px auto !important;
+	text-align: center;
+}
+
+footer a:hover{
+	text-decoration: underline !important;
+}
+
+#footer-bar{
+	position: relative;
+	padding: 20px 0;	
+}
+
+#footer-bar a{
+	padding: 0 5px;
+	text-transform: uppercase;
+	font-size: .75em;
+	margin-top: 5px;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#footer-bar:after{
+	clear: both;
+}
+
+#legal{
+	line-height: 1.5;
+}

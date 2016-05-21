@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0706008 - Designing RIch Internet Applications</title>
+        <link rel="stylesheet" href="/ria/css/main.css">
+		 <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<meta charset="UTF-8">
+    </head>
+    <body>
+		<div id="dialog-confirm" title="WARNING: Please confirm">
+			<p></p>
+		</div>
+	
+		<div id="full-container">
+			<div id="cookie">
+				<div id="runEffect">
+					<a href ="#" class="close-message">Accept and Close</a>	
+					<h1>Welcome</h1>
+					<p>
+						This website may use cookies as part of Abertay's cookie collection policy. 
+						By continuing to use this website, you agree to the <a class="cookie external-link" target="_blank" href="http://abertay.ac.uk/privacy/">Abertay University Cookie Policy</a>
+					</p>
+				</div>
+			</div>
+			<section>
+				<header>
+					<div id="heading">
+						<img src="/ria/img/a.png" alt="Blank Image Placeholder"/>
+					</div>
+					
+					<div id="slideshow" class="slide_show"></div>
+				
+					<div class="nav-banner">
+						<nav class="top-nav">	
+							<ul class="main-nav">
+								<li><a class="nav"  href="/ria/index.html">Home</a></li>
+								<li><a class="nav dropdown" href="/ria/events.html">Events</a>
+									<ul class="nav-events">
+										<li><a href="/ria/event/london.html">London</a></li>
+										<li><a href="/ria/event/edinburgh.html">Edinburgh</a></li>
+										<li><a href="/ria/event/dundee.html">Dundee</a></li>
+									</ul>
+								</li>
+								<li><a class="nav"  href="/ria/shop.html">Shop</a></li>
+								<li><a class="nav"  href="/ria/tutor.html">Tutor</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="white-bg">
+					<div id = "countdown">
+						<section>
+						<!-- banner that contains next race event details -->
+							<p id="timer">
+								The next <span class="location">{{LOCATION}}</span> marathon will start in <span  class="c_down">{{TIMER}}</span>
+							</p>
+						</section>
+					</div>
+				</div>
+				<main class="main">
+					<div id="content">
+						<section>
+							<div class="left column">
+								<div id="what-is-a-marathon">
+									<h1>Events Page</h1>
+									<p> <!-- Source: http://wikipedia.org/wiki/London_Marathon -->
+										Welcome to the <span class="blue">Blue</span>Marathon events page.
+									</p>
+								</div>	
+								<div>
+									<h2>Marathons</h2>
+									<p><!-- Source: http://wikipedia.org/wiki/marathon -->
+										Currently, we have three marathons happening this year:
+									</p>
+									
+									<ol>
+										<li><span class="blue">London</span></li>
+										<li>Edinburgh</li>
+										<li>Dundee</li>
+									</ol>
+								</div>	
+
+								<div class="course">
+									<h2>London</h2>  
+									
+									<div>									
+										<img src="/ria/img/london.marathon.route.jpg" alt="Image: Route of the London marathon" />
+										<p> <!-- https://www.virginmoneylondonmarathon.com/en-gb/ -->
+										
+											The 2015 Virgin Money London Marathon Final Instructions magazines will be mailed out 
+											to all runners (apart from overseas runners who will be emailed a PDF of the Final 
+											Instructions) from Tuesday 24 March. This magazine contains all the information you
+											need to have a trouble-free Race Day on Sunday 26 April. Please read the Final 
+											Instructions carefully well ahead of Race Day. 
+											
+											<!-- <a href="event/london.html" class="continue-reading blue">Continue reading</a> -->
+										</p>
+									</div>
+									
+									
+									<div class="sponsored-events">
+										<p class="sponsored">sponsored</p>
+										<p>
+											London Marathon Links
+										</p>
+									</div>
+									<div class="bordered">
+										<div class="prep-col">
+											
+											<ul class="sponsored-run">
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/how-to-enter/" class="external-link blue">
+														&gt;&gt; How to Enter
+													</a>
+												</li>
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/charity/" class="external-link blue">
+														&gt;&gt; Get Sponsored
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="prep-col">
+											<ul class="sponsored-run">
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/event-info/accommodation-information/" class="external-link blue">
+														&gt;&gt; Accommodation
+													</a>
+												</li>
+												<li>	<a href="https://www.virginmoneylondonmarathon.com/en-gb/training/" class="external-link blue">
+														&gt;&gt; Start training
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>	
+								</div>
+						
+								<div id="ajax-london" class="london-event event-information">
+									<h3>Overview of London Marathon</h3>
+									
+									<p><!-- http://en.wikipedia.org/wiki/London_Marathon#Overview -->
+										The race was founded by the former Olympic champion and journalist Chris Brasher and athlete 
+										John Disley. It is organised by Hugh Brasher (son of Chris) as Race Director and Nick Bitel 
+										as Chief Executive. Set over a largely flat course around the River Thames, the race begins 
+										at three separate points around Blackheath and finishes in The Mall alongside St. James's Park.
+									</p>
+									
+									<div class="sponsored-events table">
+										<p>
+											London Marathon Information Table
+										</p>
+									</div>
+									<div class="table bordered">
+
+										<ul class="table-left-col">
+											<li>Race Date</li>
+											<li>Starting Time</li>
+											<li>Venue</li>
+											<li>Facilities</li>
+											<li>Race Limit</li>
+											<li>Distance</li>
+											<li>Entry Fee</li>
+											<li>Organiser</li>
+											<li>Telephone</li>
+											<li>Website</li>
+										</ul>
+										
+										<ul class="table-right-col">
+											<li>Sunday 26th April, 2015</li>
+											<li>10,10am</li>
+											<li>St. James Park, London</li>
+											<li>parking, Toilets</li>
+											<li>10,000</li>
+											<li>26,2 miles</li>
+											<li>39,20 GBP</li>
+											<li>Virgin Money</li>
+											<li>+44 (0)845 30 30 183</li>
+											<li><a href="https://www.virginmoneylondonmarathon.com/en-gb/how-to-enter/" class="blue">virginmo...gb/how-to-enter/</a></li>
+										</ul>
+									</div>
+									<div class="sponsored-events">
+									<p class="sponsored">sponsored</p>
+									<p>
+										Upcoming events:  
+										<img src="/ria/img/runner-icon.png" alt="Running Icon"/> <a class="up-coming" href="/ria/event/london.html">London</a>,
+										<img src="/ria/img/runner-icon.png" alt="Running Icon" /><a class="up-coming" href="/ria/event/edinburgh.html">Edinburgh</a>,
+										<img src="/ria/img/runner-icon.png" alt="Running Icon" /><a class="up-coming" href="/ria/event/dundee.html">Dundee</a>
+										
+										are all coming soon!
+									</p>
+								</div>
+								<div id="fitness">
+									<div class="prep-col">
+										<h3>Am I fit to race?</h3>
+											<p>make sure you're fit enough to race by knowing when not to... <br>
+												<a target="_blank"  class="external-link" href="http://www.bupa.co.uk/running/injury-prevention-and-recovery/avoiding-injury/">&gt;&gt;Find out here</a>
+											</p>
+									</div>
+									<div class="prep-col">
+										<h3>Counting down to race day</h3>
+											<p>The week before, the day before and race day tips and reminders... <br>
+												<a target="_blank" class="external-link" href="http://www.bupa.co.uk/running/events-and-preparation/race-preparation/countdown-to-race-day/">&gt;&gt; Find out here</a>
+											</p>
+									</div>
+								</div>
+									
+								</div>
+						<!-- 
+								<div class="sponsored-run">
+									<h2>Think you've got what it takes?</h2>
+									
+									<ul>
+										<li><a href="https://www.virginmoneylondonmarathon.com/en-gb/how-to-enter/" class="external-link blue">
+											&gt;&gt; Here is how
+										</a></li>
+										<li>
+											<a href="events.html" class="blue">
+												&gt;&gt; See our other runs
+											</a>
+										</li>
+									</ul>
+								</div> 
+
+						-->
+						</div>
+							<aside class="right column">
+								<div id="one">
+									<p>
+										Loading content . . .
+									</p>
+								</div>
+								<div id="two">
+									<p style="margin-top: 350px">
+										Loading content . . . 
+									</p>
+								</div>
+								<div id="three">
+									<p style="margin-top: 350px">
+										Loading content . . . 
+									</p>
+								</div>
+								<div id="four">
+									<p style="margin-top: 350px">
+											Loading content . . . 
+									</p>
+								</div> 
+							</aside>
+						</section>
+					</div>
+				</main> 
+			</section>
+			
+			<footer class="footer-foot">					
+				<section class="footer-text">
+					<img src="/ria/img/text-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Text Sources</h2>
+					<p>
+						The text for this site has been taken from a range of websites, 
+						and can be found <a href="/ria/tutor.html">here</a>.
+					</p>
+				</section>
+				<section class="footer-images">
+					<img src="/ria/img/image-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Image Sources</h2>
+					<p>
+						Images are copyright of their respective owners. 
+						Taken from advanced search of GOOGLE.
+					</p>
+				</section>
+				
+				<section class="footer copy">
+					<img src="/ria/img/copyright-file-icon.png" alt="Icon: Text Image" class="icon" />
+					<h2 class="footer heading">Copyright</h2>
+					<p>
+						Created for educational use. 
+						This website has no copyright, and is free to use for any purpose.
+					</p>	
+				</section>
+				<div class="footer-foot-foot">
+					<nav>	
+						<ul class="footer-nav">
+							<li class="li-first" ><a href="/ria/index.html">Home</a></li>
+							<li><a href="/ria/event.html">Events</a></li>
+							<li><a href="/ria/shop.html">Shop</a></li>	
+							<li class="li-last"><a  href="/ria/tutor.html">Tutor</a></li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+		</div>
+		
+		
+		<!-- SCRIPT TAGS -->
+		
+		<!-- CDN Hosts for libraries (Saves space as my quota is exceeded its limit) -->
+		<script src="https://code.jquery.com/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		
+		<!-- JS files that have been made myself -->
+		<script src="/ria/js/timer.js"></script>
+		<script src="/ria/js/slider.js"></script>
+		<script src="/ria/js/main.js"></script>
+		<script src="/ria/js/plugin/plugin.ria.data.js"></script>
+		<script src="/ria/js/plugin/plugin.ria.latest.js"></script>
+    </body>
+</html>

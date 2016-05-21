@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<?php
+			$title = "Bob's Merchant Listings";
+			include_once "header.php";
+		?>
+		
+	</head>
+
+	<body id="page-top" class="index">
+
+		<?php 
+			include_once "nav.php";
+		?>
+		
+		<?php
+			//green background if defined, white otherwise
+			$bg = "success";
+			$buffer = true;
+			
+			include_once "listings.php";
+		?>	
+
+		
+		<!-- Contact Section -->
+		<section class="" id="register">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2>Register Your Interest</h2>
+						<hr class="star-primary">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+						<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+						<form enctype="multipart/form-data" name="" id="" novalidate action = "register.php" method ="POST">
+						
+
+						   <div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Email Address</label>
+									<input <?php echo 'value= "' . $user . '"' ?> type="email" name="un" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+								<?php	
+									if ($user == ""){
+										echo '<p class="help-block text-danger">Please enter your Email address.</p>';
+									}
+								?>	
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Password</label>
+									<input type="password" name="pw" class="form-control" placeholder="Password" id="password" required data-validation-required-message="Please enter a memorable password.">
+								<?php		
+									echo '<p class="help-block text-danger">Please enter a secure password.</p>';
+								?>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Company Name</label>
+									<input <?php echo 'value= "' . $company . '"' ?> type="text" name="cn" class="form-control" placeholder="Company Name" id="company" required data-validation-required-message="Please enter your company name.">
+								<?php	
+									if ($company == ""){
+										echo '<p class="help-block text-danger">Please enter your company name.</p>';
+									}
+								?>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Company description</label>
+									<input <?php echo 'value= "' . $desc . '"' ?> type="text" name="cd" class="form-control" placeholder="Company Description" id="description" required data-validation-required-message="Please enter your company description.">
+								<?php	
+									if ($desc == ""){
+										echo '<p class="help-block text-danger">Please enter a description for your company.</p>';
+									}
+								?>
+								</div>
+							</div>
+							
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Company URL</label>
+									<input <?php echo 'value= "' . $url . '"' ?> type="url" name="wu" class="form-control" placeholder="Website URL" id="url" required data-validation-required-message="Please enter your company website.">
+								<?php	
+									if ($url == ""){
+										echo '<p class="help-block text-danger">Please enter your website address.</p>';
+									}
+								?>
+								</div>
+							</div>
+
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>Merchant type</label>
+									<input <?php echo 'value= "' . $type . '"' ?> type="text" name="ct" class="form-control" placeholder="Company Type: plumbing, gaming, joineery, etc." id="type" required data-validation-required-message="Please enter what your company sells.">
+								<?php	
+									if ($type == ""){
+										echo '<p class="help-block text-danger">Please enter the type of business you run.</p>';
+									}
+								?>
+								</div>
+							</div>
+							<div class="row control-group">
+								<div class="form-group col-xs-12 floating-label-form-group controls">
+									<label>File Upload</label>
+									<input type="file" name="cp" class="form-control" id="upload" required data-validation-required-message="Please enter a image representation of your company.">
+								<?php			
+									echo '<p class="help-block text-danger">Please enter an image that describes your company (Max 100kB).</p>';
+								?>
+								</div>
+							</div>
+							
+							<div id="preview">
+								<img id="previewimg" src=""><img id="deleteimg" src="delete.png">
+								<span class="pre">IMAGE PREVIEW</span>
+							</div>
+
+							
+							<br> <!-- todays date, website, description, company type (plumber, game merchant, electrician...) -->
+							<div id="success"></div>
+							<div class="row">
+								<div class="form-group col-xs-12">
+									<button type="submit" class="btn btn-success btn-lg text-center center-block">Register a New Account</button>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<!-- PREMIUM full-page include data (included in footer) -->
+		<?php
+			include_once "footer.php";
+		?>
+
+	</body>
+</html>

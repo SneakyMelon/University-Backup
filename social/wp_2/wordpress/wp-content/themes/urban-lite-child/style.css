@@ -1,0 +1,141 @@
+/*
+ Theme Name:     urban-lite-Child
+ Theme URI:      http://mayar.abertay.ac.uk/~0706008/social/
+ Description:    urban-lite-child theme for Enterprise Solutions
+ Author:         Allan (0706008)
+ Author URI:     http://mayar.abertay.ac.uk/~0706008/social/
+ Template:       urban-lite
+ Version:        1.0.0
+*/
+ 
+@import url('../urban-lite/style.css');
+ 
+.logged-in .loggedout{
+	display: none;
+}
+
+.loggedin
+{
+	display: none;
+}
+
+.logged-in .loggedin
+{
+	display: block;
+}
+
+.slides
+{
+	background-color: #f73838;
+	margin: 0;
+}
+
+.slides li
+{
+  list-style-type: none;
+}
+
+#movieDB-api
+{
+
+}
+
+#movieDB-api > .movieDB-api-container
+{
+	padding: 20px;
+	margin: 2%;
+	margin-left:15%;
+	border: 1px solid #f73838;
+	position: relative;
+}
+
+.movieDB-api-powered-by
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 5px;
+	color: #f73838;
+}
+
+#movieDB-api > .movieDB-api-container > h1
+{
+	padding: 0;
+	margin: 0;
+	text-transform: none !important;
+}
+
+#movieDB-api > .movieDB-api-container > h1 >span:nth-child(2)
+{
+	font-size: 0.7em;
+}
+
+.movieDB-api-movie-about-plot
+{
+	
+}
+
+.movieDB-api-movie-information
+{
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+
+.movieDB-api-movie-about-people > p
+{
+	font-size: 0.8em;
+	padding: 0;
+	margin: 1% 0;
+}
+
+.movieDB-api-external-links
+{
+	float: right;
+}
+
+
+#buddypress a.button, .comment-metadata
+{
+	background: #f73838;
+}
+ .comment-metadata a, .comment-metadata .time
+{
+	color: white !important;
+}
+ .comment-metadata a
+ {
+	text-decoration: underline;
+ }
+
+
+ .comment-metadata a:hover
+ {
+	text-decoration: none;
+ }
+ 
+#buddypress a.button:hover
+{
+	background: #891F1F;
+}
+
+#activity-filter-by, select, input[type='submit']
+{
+	color:  #f73838 !important;
+}
+
+h1#logo, h2.description
+{
+	text-align: center;
+	width: 100%;
+}
+
+.post-117 p.stats-page-output
+{
+	text-align: left;
+	margin: 0;
+}
+
+#commentform  input#submit
+{
+		color: white !important;
+}

@@ -1,0 +1,677 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "open sans", "times new roman";
+}
+
+body{
+	background-color: #f2f2f2;
+	color: #404040 !important;
+	/*background-image: url("../img/bg.jpg");
+		background-repeat: no-repeat;
+		background-position: 20% 80% !important;
+		background: url('../img/bg.jpg') no-repeat fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	background-size: cover; */
+}
+
+a,a:visited,a:active
+{
+	color: white;
+}
+
+a:hover{
+	color: white !important;
+	background-color: #007;
+	text-decoration: none;
+}
+
+#dialog-confirm
+{
+	font-size: 62.5%;
+}
+
+a.blue, .blue
+{	
+	color: #007;
+	text-decoration: none;
+	font-weight: 700;
+	
+}
+
+a.blue:hover{
+	color: white;
+	background: #007;
+	text-decoration: none;
+}
+
+.ui-icon.uiicon-alert
+{
+	float: left !important;
+	margin: 0 7px 20px 0 !important;
+}
+
+h1{
+	font-size: 2em;
+}
+
+.course div img
+{
+	border: 1px solid #007;
+}
+
+#full-container
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#cookie{
+	width: 1200px;
+	color: white;
+	background-color: #007;
+	position: relative;
+	font-size: 12px;
+	display: none;
+}
+
+#cookie > *
+{
+	padding: 0 15px 15px 15px ;
+}
+
+.close-message
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.close-message:hover
+{
+	background: white;
+	color: #007 !important;
+}
+
+
+#heading 
+{
+	text-align: left !important;
+	float: left;
+	background: white;
+	padding: 20px 0;
+	width: 100%;
+}
+
+#heading img
+{
+	margin-left: 20px;
+}
+
+section, .top-nav
+{
+	width: 1200px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.sticky{
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	border-bottom: 1px solid white;
+}
+
+.nav-banner
+{
+	height: 50px;
+	width: 1200px;
+	margin: 0px auto;
+}
+.main-nav
+{
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav li{
+	list-style-type: none;
+	width: 25%;
+	float: left;
+}
+
+
+
+.main-nav li a:link, .main-nav li a:visited
+{
+	display: block;
+	text-decoration: none;
+	background: #007;
+	padding: 14px;
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+.main-nav li a:hover
+{
+	background: white;
+	color: #007 !important;
+}
+
+
+
+.nav-events
+{
+	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	z-index: 100;
+	
+	width: 300px;
+}
+
+.nav-events li
+{
+	display: inline;
+	float: none;
+	
+}
+.nav-events li a
+{
+	border: 1px solid #007;
+
+}
+.nav-events li a:link, .nav-events li a:visited
+{
+	background-color: #007;
+	width: auto;
+}
+
+.nav-events li a:hover
+{
+	background: white;
+	color: #007 !important;
+}
+
+.dropdown:after
+{
+	padding-left: 4px;
+	content:  "\FFEC";
+	font-size: 16px;
+}
+
+
+
+main.main{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	overflow: auto;
+}
+
+#countdown{
+	margin: 0 auto;
+	border-top: 1px solid #007;
+	border-bottom: 1px solid #007;
+	height: 50px;
+}
+
+#countdown * p
+{
+	font-size: 20px;
+	font-family: "open sans";
+	line-height: 46px;
+	text-align: center;
+}
+
+#timer
+{
+	max-height: 49px;
+}
+
+#timer span
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.slide_show
+{
+	clear: both;
+	height: 400px;
+	width: 1200px;
+	background-image: url("../img/edinburgh.jpg");
+	background-repeat: no-repeat;
+	margin: 0px auto 0px auto !important;
+}
+
+.column
+{
+	display: block;
+	min-height: 500px;
+	margin: 1% 0;
+	padding: 1%;
+}
+.left
+{
+	width: 60%;
+	float: left;	
+}
+
+.right
+{
+	width: 30%;
+	float: right;
+}
+
+.fact-list
+{
+	height: 370px;
+	width: 99%;
+	margin: 0 auto 15px auto;
+	overflow: auto;
+}
+
+.fact-list canvas
+{
+	width: 200px !important;
+	height: 200px !important;
+	float: right;
+	padding: 15px;
+}
+
+.doughnut-legend
+{
+	list-style-type: none;
+	width: 40%;
+	/*overflow: overlay; */
+	padding-left: 25px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.doughnut-legend li span {
+	display: block;
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	float: left;
+	margin-top: 4px;
+	margin-right: 8px;
+}
+
+.fact div
+{
+	position: relative;
+}
+
+.fact-list p
+{
+	padding: 25px 25px 0 25px;
+	overflow: hidden;
+}
+
+.doughnut-legend li span:after{
+	clear: both;
+}
+
+footer.footer-foot
+{
+	margin: 0px auto 35px auto;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	width: 1200px;
+	clear: both;
+	background-color: #007 	!important;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	overflow: auto;
+}
+
+footer header, #heading section{
+	width: 1200px;
+	text-align: center;
+	background-color: inherit;
+}
+
+section, #countdown section, .main-nav, .white-bg{
+	background-color: white;
+}
+
+#fitness
+{
+	width: 100%;
+	overflow: auto;
+	border-left: 1px solid #007;
+	border-bottom: 1px solid #007;
+	border-right: 1px solid #007;
+}
+
+ .left p{
+	line-height: 28px;
+	padding: 10px 20px;
+}
+
+.week-1 img
+{
+	padding-left: 20px;
+}
+
+.prep-col{
+	float: left;
+	width: 45%;
+	margin: 1%;
+	padding: 1%;
+}
+
+.sponsored
+{
+	line-height: 12px;
+	font-size: 12px; 
+	position: absolute;
+	top: -6px;
+	left: 5px;
+	padding: 0 !important;
+}
+
+ol
+{
+	padding-left: 40px;
+	width: 100%;
+	overflow: auto;
+}
+
+ol li
+{
+	float: left;
+	list-style-position: inside;
+	padding: 15px 30px;
+}
+
+.sponsored-events
+{
+	clear: both;
+	background: #007;
+	/*width: 700px;*/
+	width: 100%;
+	color: white;
+	margin-top: 0.5%;
+	position: relative;
+	border-right: 1px solid #007;
+	border-left: 1px solid #007;
+}
+
+.sponsored-events img{
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	top: 15px;
+}
+
+.sponsored-events a
+{
+	margin-left: 25px;
+	color: white;
+}
+
+.course img{
+	float: left;
+	width: 680px;
+	height: 300px;
+	margin: 30px 0 30px 20px;
+}
+
+#preparation p
+{
+	float: left;
+	width: 69%;
+}
+
+section div.left div{
+	float: left;
+}
+
+
+
+#fitness a
+{
+	color: #007 !important;
+	background: white;
+	text-decoration: none;
+	font-weight: 700;
+	float: right;
+}
+
+#fitness a:hover
+{
+	color: white !important;
+	background: #007;
+}
+
+.sponsored-events a
+{
+	color: white;
+}
+
+.sponsored-events a:hover
+{
+	text-decoration: none;
+}
+
+#marathon-training{
+	width: 100%;
+	margin: 15px 0;
+}
+
+#marathon-training a{ 
+	color: #007;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+.sponsored-run
+{
+	margin-left: 40px;
+}
+
+.sponsored-run li
+{
+	margin: 10px;
+	list-style-type: none;
+}
+
+footer section{
+	background-color: #007 !important;
+	color: white !important;
+	width: 30%;
+	margin: 1%;
+	float: left;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+.bordered
+{
+	border: 1px solid #007;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+h2.footer.heading{
+	color: white;
+	font-weight: normal;
+	float: left;
+	margin-left: 10px ;
+}
+
+footer section p{
+	clear: both;
+	float: left;
+	margin-top: 10px;
+}
+
+.icon
+{
+	width: 30px;
+	height: 30px;
+	padding: 1px;
+	float: left;
+}
+
+.footer-nav
+{
+	display: flex;
+	list-style-type: none;
+	line-height: 24px;
+	margin: 0 auto;
+	width: 380px;
+	padding-left: 30px;
+}
+
+.footer-nav li
+{
+	border-left: 1px solid white;
+}
+
+.footer-nav li a
+{
+	padding: 0 15px;
+}
+
+.footer-nav li.li-last
+{
+	border-right: 1px solid white;
+}
+
+.footer-foot-foot nav{
+	overflow: auto;
+	float: left;
+	width: 100%;
+}
+
+.footer-foot-foot{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.continue-reading
+{
+	font-size: 0.7em;
+	color: #007;
+	float: right;
+}
+
+.table
+{
+	width: 60% !important;
+	float: left !important;
+	margin-left: 80px !important;
+}
+
+.table-left-col, .table-right-col
+{
+	line-height: 30px;
+	padding: 5px;
+	list-style-type: none;
+	float: left;
+}
+
+.table-left-col
+{
+	width: 30%;
+	font-size: 1em;
+	clear: both;
+}
+
+.table-right-col
+{
+	float: right;
+	
+}
+
+div.table.bordered
+{
+	background-color: aliceblue !important;
+}
+
+.event-information
+{
+	width: 700px;
+}
+
+
+table
+{
+	margin: 10px;
+}
+
+td
+{
+	#border-bottom: 1px solid #ddd;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+input[type="text"]
+{
+	margin: 20px 0 20px 20px;
+	padding: 0.5em 0.6em;
+	border: 1px solid #007;
+	border-radius: 4px;
+	vertical-align: middle;
+	color: #007;
+}
+input[type="text"]:hover, input[type="text"]:focus
+
+{
+	color: white;
+	background-color: #007;
+}
+
+ input[type="number"]
+ {
+	border-radius: 4px;
+	vertical-align: middle;
+	padding: 0.5em 0.8em;
+	border: 1px solid #007;
+}
+input[type="submit"]
+{
+	background-color: #007;
+	color: white;
+	padding: 0.5em 0.6em;
+	margin-left: 20px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+input[type="submit"]:hover
+{	
+	color: #007;
+	background-color: white;
+	border: 1px solid #007;
+}
+
+
+
+label
+{
+	margin-left: 20px;
+}

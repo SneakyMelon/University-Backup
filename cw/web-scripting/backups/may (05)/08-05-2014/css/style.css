@@ -1,0 +1,471 @@
+
+/* Custom Web Fonts using Google Fonts
+//
+// https://www.google.com/fonts#QuickUsePlace:quickUse/Family:
+//
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Allura);
+
+/*Resets and defaults*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #3363a2;
+}
+
+#wrapper{
+	/*Removes CSS trick with menu,
+	  change if i want to remove later...*/
+	/*background-image: url('../images/pattern.png');*/
+	padding-top: 1%;
+	overflow: hidden;
+	margin-bottom: 25px;
+	
+	background-image: url('../images/bg-header.png');
+	background-repeat: repeat-x;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: verdana, arial, "Times New Roman";
+	font-size: 1em;
+}
+h1{
+ font-size: 3em;
+ margin: 10px 0 0 0;
+ text-align: center;
+}
+
+h4{
+    margin-bottom: 0;  
+}
+
+/* 
+/*  style the heading and give the animation effect */
+/* 	Idea from [with some edits]
+/* 		http://www.inserthtml.com/
+*/
+
+ a{
+	font-size: 0.8em;
+}
+
+
+#header{
+	clear: both;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#menu, #menu ul {
+	/* Remove bullet points and add fonts */
+    padding: 0;
+    width: 883px;
+    height: inherit;
+    margin: 0 auto;
+    
+    
+    
+	list-style: none;
+	min-width: 750px;
+	position: relative;
+	margin: 0px auto;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#menu li {
+	/* Horizontal menu, not vertical. Then just a little extra positioning */
+	float: left;
+	position: relative;
+	overflow: hidden;	
+	margin-right: 10px;
+	height: 40px;
+	
+}
+
+#menu li a {
+	/* Clear up the links and position them correctly */
+	z-index: 101; /*fix background-bug*/
+	
+	color: #000;
+	padding: 0 15px;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	height: 40px;
+	padding: 10px 15px;
+	font-weight: bold;
+	/* Quick animations to animate the anchor */
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+}
+
+#menu li span {
+	/* Default width of the span (acts as border). Z-index so it appears behind the words. */
+	width: 6px;
+	
+	z-index: 100; /*fix background-bug*/;
+	
+	/* Position it absolutely so it goes where we want it to go */
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	/* Animation again, because both the span and the anchor will be animated */
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-ms-transition: all 0.4s ease-in;
+}
+
+#menu li:nth-of-type(1) span { background: #c04545 !important; }
+#menu li:nth-of-type(2) span { background: #c06b45 !important; }
+#menu li:nth-of-type(3) span { background: #88c045 !important; }
+#menu li:nth-of-type(4) span { background: #48c045 !important; }
+#menu li:nth-of-type(5) span { background: #45c0aa !important; }
+#menu li:nth-of-type(6) span { background: #4576c0 !important; }
+#menu li:nth-of-type(7) span { background: #7945c0 !important; }
+
+
+#menu li:hover > span {
+	min-width: 100%;
+}
+
+#menu li a:hover {
+	color: #fff;
+}
+
+#menu .sub-menu li {
+	padding: 10px;
+	float: left;
+}
+
+#menu li:hover {
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+/* End of Nav.Menu*/
+
+/* Header*/
+header{
+	height: 220px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#head{
+	width: 550px;
+	margin: 0 auto;
+}
+
+#title-img img{
+	float: left;
+}
+
+#title h1{
+	font-family: 'Allura', cursive;
+	font-size: 3em;
+	float: left;
+	margin-top: 30px;
+}
+
+/* End of Header*/
+
+
+/*Start of ASIDE*/
+
+#side-columb{
+    margin-top: 75px;   
+}
+
+#search-results{
+    position: absolute; 
+    max-width: 210px; 
+    background-color: white; 
+    z-index: 999;
+}
+
+div.side-item form input[type=text], div.side-item form input[type=email]{
+	width: 190px;
+}
+
+div.side-item form input[type=submit]{
+	float: right;
+}
+
+/*End of ASIDE*/
+
+
+/* Content start*/
+
+#content{
+	/*background-color: yellow;*/
+	/*min-height: 1000px;*/
+	max-width: 1000px;
+	margin: 0 auto;
+	border-top   : 1px solid #4576c0;
+}
+#contents{
+	float: left;
+	/*background-color: pink;*/
+	width: 75%;
+	padding-bottom: 2%;
+	overflow: hidden;
+}
+
+#contents img{
+	display: block;
+	margin: 0 auto;
+}
+
+#contents h2{
+	padding-left: 5%;
+	font-size: 2em;
+}
+
+#side-columb{
+	float: right;
+	/*background-color: green;*/
+	width: 25%;
+}
+
+#contents p{
+	padding: 0 5%
+}
+
+#contents p:nth-of-type(1){
+	line-height: 1.2em;
+}
+
+#contents  p, .side-item h3, .side-item p{
+	margin-bottom: 0;
+}
+
+.sourced{
+	float: right;
+	padding: 0 5%;
+	margin: 0 auto;
+	display: block;
+	color: red;
+}
+/* Content end*/
+
+/* Gallery */
+
+.gallery
+{
+	width: 40%;
+	height: 40%;
+	float: left;
+	
+	margin: 2% !important;
+}
+/*
+span
+	=> .next
+	=> .prev
+	=> .page
+	=> .this-page
+	=> .disabled
+*/
+
+.page{
+	min-height: 12px;
+	min-width: 12px;	
+	
+	border: 1px solid blue;
+	color: blue;
+	padding: 5px;
+	margin: 0 3px;
+}
+
+.this-page
+{
+	background-color: blue;
+	color: white;
+}
+
+.disabled
+{
+	color: gray;
+	border: 1px solid gray;
+}
+
+#pagination span a{
+	text-decoration: none;
+}
+
+#pagination span a:active{
+	
+}
+
+#pagination span a:hover{
+
+}
+
+#pagination span a:visited{
+	color: blue;
+}
+
+#results-per-page
+{
+	width: 100%;
+}
+
+#page{
+	width: 100%;
+	text-align: center;
+}
+
+#pagination
+{
+	clear: both;
+}
+
+#gallery{
+	width: auto;
+	height: auto;
+}
+
+/* END OF GALLERY */
+
+/* START OF ROOMS */
+
+.thumbnail  {
+  width		: 100px ;
+  height 	: 66px ;
+  /* display	: block ; */
+  margin	: 5px;
+}
+
+#thumbs{
+	list-style-type: none;
+	float: left;
+	/* display: inline-flex; */
+}
+
+#holder{
+	padding: 3px;
+	
+	float: right;
+	margin-right: 40px; 
+}
+
+#cont{
+	
+	margin-top: 25px;
+}
+
+#thumbs img{
+	margin: 10px;
+}
+
+#cont
+{
+	min-height: 285px;
+}
+
+#rooms{
+	margin: 10px 10px 10px 0;
+}
+
+/* END OF ROOMS*/
+
+
+/* START OF STAFF*/
+
+td
+{
+	width: 200px;
+}
+
+/* END OF STAFF */
+
+
+
+/* FOOTER*/
+footer{
+	border-top: 1px solid #4576c0;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+	clear: both;
+}
+
+.foot{
+	width: 24%;
+	height:250px;
+	/*background-color: green;*/
+	float: left;
+}
+/*
+.c1, .c2, .c3{
+	margin: 0 1% 0 0;
+	
+}
+*/
+.c1, .c3{
+	border-right: 3px solid  #c04545;
+}
+
+.c4{
+	padding-left: 15px;
+}
+
+.social{
+	width: 50px;
+	height: 50px;
+}
+
+.clearfix{
+	clear:both;
+}
+
+footer > div > div.foot.c2 p{
+    line-height: 1.5em;
+    margin: 0;   
+}
+
+.fleft{
+	float: left;
+	margin-left: 5%;
+}
+
+iframe{
+	padding-top: 25px;
+	border: 0;
+}
+
+#copy{
+	border-top: 1px solid #4576c0;
+	margin-top: 25px;
+	float: left;
+	width: 1000px;
+	
+}
+
+/*NEWSLETTER/ ERRORS/ DATABASE CONNECTIONS*/
+
+ .db_connect, .db_fail, .db_success, .db_pass{
+	font-style: italic;
+	font-weight: bold;
+ }
+ 
+ .db_fail{
+	color: red;
+ }
+ 
+ .db_success{
+	color: green;
+ }
+ 
+ .db_pass{
+	color: #4576c0;
+	text-align: center;
+	margin: 35px 0 !important;
+ }
+ 
+ .error-list{
+	margin-left: 40px;
+ }
+ 

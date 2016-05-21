@@ -1,0 +1,31 @@
+/*
+File:			custom.css
+Description:	Custom styles for Your Theme
+
+HOW TO USE THIS FILE:
+
+Override any class you want and it will change default styling to suit your needs.
+
+For example, if you wish to change the default text blog title to grey, you would add the 
+following declarations to this file:
+
+	#header .blog-title a{ background:#cccccc }     <--- This makes blog title background grey
+
+*/
+
+
+body, #main_nav, .outer
+{
+	background-image: url('images/static_noise.jpeg');
+}
+
+.logo
+{
+	float: none;
+	text-align: center;
+}
+#header > .logo img
+{
+	height: 150px;
+	width: 300px;
+}

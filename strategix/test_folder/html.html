@@ -1,0 +1,22 @@
+<html>
+    <head>
+<script>
+var ajax = new XMLHttpRequest();
+
+ajax.onreadystatechange = function() {
+    if (ajax.readyState == 4) {
+        document.getElementById('content').innerHTML = ajax.responseText;
+    }
+}
+function updateText() {
+    ajax.open('POST', 'basicform.php');
+	ajax.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+    ajax.send('name1=value1&name2=value2');
+}
+</script>
+    </head>
+    <body>
+        <button onclick="updateText()">Click Me</button>
+        <div id="content">Nothing here yet.</div>
+    </body>
+</html>

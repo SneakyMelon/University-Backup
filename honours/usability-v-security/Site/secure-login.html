@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>sBank - Scotlands only Online and Digital Banking</title>
+        <meta name="description" content="Scotlands only online bank that provides the best quality for money.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <!-- External JavaSript Vendors -->
+       	<script defer src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- External vendors-->
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+		<!-- Internal Styling sheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/flag-icon.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bs/bootstrap.css">
+		<link rel="stylesheet" href="css/login.css">
+    </head>
+    <body class="light-blue">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<!-- <div id="dialog-message" title="Example Home Page Only" class="ui-dialog">
+			<p>
+				Thank you for testing this website. 
+			</p>
+			
+			<p>
+				Links do not work, and are only here to be used as place holders. 
+				Please use the login button at the top of the page.
+			</p>
+		</div> -->
+		<section id="main" class="secure-login">
+			<div id="logo-image">
+				<a href="index.html">
+					<img src="img/bank_logo.png" alt="sBank Logo" />
+				</a>
+			</div>
+			<div id="logo-text">
+				<h1 class="logo sBank"><a href="index.html">sBank. Scotland's #1 Bank.</a></h1>
+				<h2>User Authentication</h2>
+			</div>
+
+			<div id="content">
+				<form action="secure-login-next.html#secure/sBank-login/login/process/login.php?token=ngop3h4y80hwjg0294u2gj30o" method="POST" autocomplete="off">
+				
+					 <div class="form-group row">
+						<label for="inputEmail3" class="col-sm-2 form-control-label">sBankID</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="inputEmail3" placeholder="Account Identification Number">
+						</div>
+					  </div>
+					  
+					<div class="form-group row">
+						<label for="inputPassword3" class="col-sm-2 form-control-label">PIN</label>
+						<div class="col-sm-10">
+						  <input type="password" class="form-control" id="inputPassword3" placeholder="PIN (4-8 numbers long)">
+						</div>
+					</div>
+					  
+					  <div class="form-group row clearfix">
+						<label class="col-sm-2">MyPC?</label>
+						
+						<div class="col-sm-10">
+							<div class="checkbox">
+								<label class="c-input c-checkbox">
+									<input type="checkbox">
+										<span class="c-indicator"></span>
+										I am using a public computer.
+								</label>
+							</div>
+						</div>
+					  </div>
+					  <div class="form-group row">
+						<div class="col-sm-6 col-sm-offset-2">
+							<a href="#" class="login-help">Can't login?</a>
+						</div>
+						<div class="col-sm-4">
+							<button type="submit" class="btn btn-secondary sBank-btn">Login</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+		
+		<footer>
+			<ul class="">
+				<li class=""><a href="#" title="Return to the Home page.">sBank</a></li>
+				<li class=""><a href="#" title="View our Usability Guidelines.">Usability</a></li>
+				<li class=""><a href="#" title="View our Accessibility guidelines.">Accessibility</a></li>
+				<li class=""><a href="#" title="We take security very seriously. So should you. Learn more...">mySecurity </a></li>
+			</ul>
+			
+			<p>&copy; 2016 ScotBank. sBank is a registered Trademark in Scotland.</p>
+		</footer>
+		
+		<script>
+		
+		document.querySelectorAll(".login-help")[0]
+			.addEventListener("click", function(){
+				window.open("");
+				});
+		</script>
+    </body>
+</html>

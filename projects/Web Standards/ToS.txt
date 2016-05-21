@@ -1,0 +1,60 @@
+<h1>Allan Davidson (0706008) Terms and Conditions ("Agreement")</h1>
+<p>This Agreement was last modified on November 29, 2013.</p>
+
+<p>Please read these Terms and Conditions ("Agreement", "Terms and Conditions") carefully before using http://0706008.studentplus.abertay.ac.uk ("the Site") operated by Abertay University ("us", "we", or "our"). This Agreement sets forth the legally binding terms and conditions for your use of the Site at http://0706008.studentplus.abertay.ac.uk.</p>
+<p>By accessing or using the Site in any manner, including, but not limited to, visiting or browsing the Site or contributing content or other materials to the Site, you agree to be bound by these Terms and Conditions. Capitalized terms are defined in this Agreement.</p>
+
+<p><strong>Intellectual Property</strong><br />The Site and its original content, features and functionality are owned by Abertay University and are protected by international copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.</p>
+
+<p><strong>Termination</strong><br />We may terminate your access to the Site, without cause or notice, which may result in the forfeiture and destruction of all information associated with you. All provisions of this Agreement that by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity, and limitations of liability.</p>
+
+<p><strong>Links To Other Sites</strong><br />Our Site may contain links to third-party sites that are not owned or controlled by Abertay University.</p>
+<p>Abertay University has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party sites or services. We strongly advise you to read the terms and conditions and privacy policy of any third-party site that you visit.</p>
+
+<p><strong>Governing Law</strong><br />This Agreement (and any further rules, polices, or guidelines incorporated by reference) shall be governed and construed in accordance with the laws of Scotland, without giving effect to any principles of conflicts of law.</p>
+
+<p><strong>Changes To This Agreement</strong><br />We reserve the right, at our sole discretion, to modify or replace these Terms and Conditions by posting the updated terms on the Site. Your continued use of the Site after any such changes constitutes your acceptance of the new Terms and Conditions.</p>
+<p>Please review this Agreement periodically for changes. If you do not agree to any of this Agreement or any changes to this Agreement, do not use, access or continue to access the Site or discontinue any use of the Site immediately.</p>
+
+<p><strong>Contact Us</strong><br />If you have any questions about this Agreement, please contact us.</p>
+<p style="font-size: 85%; color: #999;">Published and generated with permission from <a href="http://termsfeed.com/terms-conditions/generator/" style="color: #999; text-decoration: none;">www.termsfeed.com</a>.</p>
+
+
+
+<h1>Allan Davidson (0706008) Privacy Policy</h1>
+<p>This Privacy Policy was last modified on November 29, 2013.</p>
+<p>Abertay University ("us", "we", or "our") operates http://0706008.studentplus.abertay.ac.uk (the "Site"). This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site.</p>
+<p>We use your Personal Information only for providing and improving the Site. By using the Site, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at http://0706008.studentplus.abertay.ac.uk.</p>
+
+<p><strong>Information Collection And Use</strong><br />While using our Site, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you. Personally identifiable information may include, but is not limited to, your name, email address, postal address and phone number ("Personal Information").</p>
+
+<p><strong>Log Data</strong><br />Like many site operators, we collect information that your browser sends whenever you visit our Site ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Site that you visit, the time and date of your visit, the time spent on those pages and other statistics.</p>
+
+<p><strong>Cookies</strong><br />Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.</p>
+<p>Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Site.</p>
+
+<p><strong>DoubleClick Cookie</strong><br />Google, as a third party vendor, uses cookies to serve ads on our Site. Google's use of the DoubleClick cookie enables it and its partners to serve ads to our users based on their visit to our Site or other sites on the Internet.</p>
+<p>You may opt out of the use of the DoubleClick Cookie for interest-based advertising by visiting the <a href="http://www.google.com/ads/preferences/" rel="nofollow">Google Ads Settings</a> page.</p>
+
+<p><strong>Do Not Track</strong><br />We support the Do Not Track browser setting. Do Not Track (or DNT) is a preference you can set in your browser to let the websites you visit know that you do not want them collecting certain information about you.</p>
+<p>For more details about Do Not Track, including how to enable or disable this preference, visit <a href="http://termsfeed.com/do-not-track">this Do Not Track webpage</a>.</p>
+
+<p>Abertay University uses Remarketing with Google Analytics to advertise on third party sites to you after you visited our Site. We and our third party vendors, like Google, use first party cookies (such as the Google Analytics cookie) and third party cookies (such as the DoubleClick cookie) to inform, optimize and serve ads based on your past visits to our Site.</p>
+<p>You can opt-out of Google Analytics for Display Advertising and customize the Google Display Network ads by visiting the <a href="http://www.google.com/settings/ads" rel="nofollow">Google Ads Settings</a> page. Google also recommends installing the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow">Google Analytics Opt-out Browser Add-on</a> for your browser. Google Analytics Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and used by Google Analytics.</p>
+
+<p><strong>Communications</strong><br />We may use your Personal Information to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe instructions provided in any email we send.</p>
+
+<p><strong>Compliance With Laws</strong><br />Abertay University will disclose your Personal Information where required to do so by law or subpoena or if we believe that such action is necessary to comply with the law and the reasonable requests of law enforcement or to protect the security or integrity of our Site.</p>
+
+<p><strong>Business Transaction</strong><br />If Abertay University is involved in a merger, acquisition or asset sale, your Personal Information may be transferred. We will provide notice before your Personal Information is transferred and becomes subject to a different Privacy Policy.</p>
+
+<p><strong>Security</strong><br />The security of your Personal Information is important to us, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While we strive to use commercially acceptable means to protect your Personal Information, we cannot guarantee its absolute security.</p>
+
+<p><strong>Links To Other Sites</strong><br />Our Site may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>Abertay University has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party sites or services.</p>
+
+<p><strong>Children's Privacy</strong><br />Our Site does not address anyone under the age of 13 ("Children"). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and are aware that your Children has provided us with Personal Information, please contact us. If we discover that a Children under 13 has provided us with Personal Information, we will delete such information from our servers immediately.</p>
+
+<p><strong>Changes To This Privacy Policy</strong><br />Abertay University may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Site. You are advised to review this Privacy Policy periodically for any changes.</p>
+
+<p><strong>Contact Us</strong><br />If you have any questions about this Privacy Policy, please contact us.</p>
