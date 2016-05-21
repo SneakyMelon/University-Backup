@@ -9,10 +9,10 @@
 		$un = $_POST['email'];
 		$pw = $_POST['password'];
 		
-		$servername	 = "lochnagar.abertay.ac.uk";
-		$username	 = "sql0706008";
-		$password	 = "qOJdFuXG";
-		$dbname 	 = "sql0706008";
+		$servername	 = "xxxxx.abertay.ac.uk";
+		$username	 = "xxxxxx";
+		$password	 = "xxxxxx";
+		$dbname 	 = "xxxxxx";
 			
 		try 
 		{
