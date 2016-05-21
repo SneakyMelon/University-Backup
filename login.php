@@ -31,12 +31,6 @@
 			$result->bindParam(2, $pw);
 			$result->execute();
 			
-			//$rows = $result->fetch(PDO::FETCH_NUM); //get num rows
-			
-			//$row = $result->fetch(PDO::FETCH_ASSOC)) //$row['name, goes,here'] 
-			
-			//$rows = $result->rowCount();
-			
 			if($result->rowCount() > 0) //logged in
 			{
 				$row = $result->fetch(PDO::FETCH_ASSOC);
@@ -121,25 +115,22 @@
 					</div>
 				</div>
 				
-					
-						<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-						<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-					<?php 
-						
-							if ($_SERVER['REQUEST_METHOD'] == 'POST' )
-							{
-								if ($error != null)
-								{
-									echo '<p class="help-block text-danger text-center">';
-											echo $error;
-									echo '</p>';
-								}
-								else if (empty($_POST['email']) || empty($_POST['password']))
-								{
-									echo '<p class="help-block text-danger text-center">Please enter your credentials.</p>';
-								}
-							}	
-					?>	
+				<?php 
+				
+					if ($_SERVER['REQUEST_METHOD'] == 'POST' )
+					{
+						if ($error != null)
+						{
+							echo '<p class="help-block text-danger text-center">';
+									echo $error;
+							echo '</p>';
+						}
+						else if (empty($_POST['email']) || empty($_POST['password']))
+						{
+							echo '<p class="help-block text-danger text-center">Please enter your credentials.</p>';
+						}
+					}	
+				?>	
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2">
 						<form name="" id="" action="login.php#login" method ="POST" novalidate>
